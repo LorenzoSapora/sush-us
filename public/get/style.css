@@ -51,7 +51,7 @@ li:nth-child(2n+2){background-color:#fafafa}
 .date{color:#ccc;margin:0 auto;max-width:800px;font-size:.8em;text-align:right;padding-right:45px}
 .meta{float:right;font-size:.8em!important;text-align:right;width:100%}
 .next-prev{width:100%;background-color:#fff;margin:0 auto 50px;max-width:750px;padding:20px 55px;font-size:.8em;height:25px;border:2px solid #EAEAEA}
-.left,.right{display:inline-block;width:49%;text-align:left}
+.left,.right{display:inline-block;width:49%;text-align:left;vertical-align:top}
 .right{text-align:right}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {header{width:100%;margin:0 auto;text-align:center;color:#5E5E5E;padding:10px 0 30px;font-weight:100;background-color:#fff;z-index:10;position:relative;border-bottom:1px solid #EAEAEA}.headsub{font-size:.65em;width:300px;margin:0 auto;font-weight:500;padding:5px 5px 2px;border-bottom:1px solid #999;border-top:1px solid #999;letter-spacing:.2em;text-transform:uppercase;color:#999}}
 @media print{header,section,.article{width:100%}}
