@@ -25,7 +25,7 @@ sub{bottom:-.5em}
 sup{top:-.5em}
 q{font-style:italic}
 small{font-size:.8em}
-pre{display:block;padding:14px;margin:0 0 18px;line-height:16px;font-size:11px;border:1px solid #d9d9d9;white-space:pre-wrap;word-wrap:break-word}
+pre{display:block;border:1px solid #d9d9d9;white-space:pre-wrap;word-wrap:break-word}
 input{padding:0 10px;width:100%;border-radius:10px;border:1px solid #ccc}
 header{width:100%;margin:0 auto;text-align:center;color:#5E5E5E;padding:80px 0;font-weight:100;background-color:#fff;z-index:10;position:relative;border-bottom:1px solid #ccc}
 header h1{font-size:1.5em;font-weight:100;color:#5E5E5E}
