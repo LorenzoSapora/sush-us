@@ -13,7 +13,7 @@ table{border-collapse:collapse;border-spacing:0;width:100%}
 th,td{text-align:left;font-weight:400}
 i{font-style:italic}
 footer,header,nav,section,article{display:block}
-a,a:active,a:visited{font-size:.85em;color:#257fa8;text-decoration:none;font-style:italic}
+a,a:active,a:visited{font-size:1em;color:#257fa8;text-decoration:none}
 a:hover{color:#50A5CC}
 p{text-align:justify}
 p,ul,ol{margin-bottom:1.5em}
