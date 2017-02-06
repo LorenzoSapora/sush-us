@@ -32,7 +32,7 @@ header h1 a,h1 a:hover{text-decoration:none}
 .headsub{background:#fff;font-size:.85em;width:394px;margin:0 auto;font-weight:500;padding:5px;border-bottom:1px solid #999;border-top:1px solid #999;letter-spacing:.2em;text-transform:uppercase;color:#999}
 nav{margin-top:20px}
 nav a{padding:0 20px}
-article{max-width:800px;font-size:.85em;padding:30px;border:1px solid #ccc;margin:80px auto 0;color:#5E5E5E;background:#fff;display:block}
+article{max-width:800px;font-size:.85em;padding:30px;border:1px solid #ccc;margin:80px auto 0;color:#5E5E5E;background:#fff}
 ul{float:left;width:325px;margin:0 25px;list-style:none}
 li:nth-child(2n+2){background-color:#fafafa}
 #tracker tr:nth-of-type(even){background:#eee}
