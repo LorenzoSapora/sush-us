@@ -90,10 +90,4 @@
     <url>
       <loc>https://sush.us/sitemap.xml</loc>
     </url>
-    <url>
-      <loc>https://sush.us/assets/main.css</loc>
-    </url>
-    <url>
-      <loc>https://sush.us/feed.xslt.xml</loc>
-    </url>
   </urlset>
