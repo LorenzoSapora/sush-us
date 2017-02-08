@@ -19,7 +19,7 @@ a:hover{color:#50A5CC}
 p{text-align:justify}
 p,ul,ol{margin-bottom:1.5em}
 strong{font-weight:700}
-em{font-style:italic;font-size:.7em}
+em{font-size:.7em}
 pre,code,tt{font-family:monospace;background-color:#fff;color:#737373;font-size:11px;padding:0}
 sup,sub{font-size:.8em;position:relative;display:inline-block;line-height:0}
 sub{bottom:-.5em}
