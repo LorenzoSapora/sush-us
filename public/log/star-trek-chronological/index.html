@@ -29,7 +29,6 @@
     <section>
       <article>
         <p>A complete list of all Star trek movies and TV shows in chronological order. For those times when you’ve got a few months of free time to spare.<!--more--></p>
-        <p><input type="text" id="search" value="" placeholder="Search.." /></p>
         <table id="startrek">
           <thead>
             <tr>
@@ -4320,11 +4319,6 @@
             </tr>
           </tbody>
         </table>
-        <div class="disclaimer">*Hat tip to <a href="https://en.wikipedia.org/wiki/List_of_Star_Trek_episodes">wikipedia</a></div>
-        <script defer="" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-        <script type="text/javascript">
-          $(document).ready(function(){$("#search").keyup(function(){if($(this).val()!=""){$("#startrek tbody>tr").hide();$("#startrek td:contains-ci('"+$(this).val() + "')").parent("tr").show();}else{$("#startrek tbody>tr").show();}});});$.extend($.expr[":"],{"contains-ci":function(elem,i,match,array){return(elem.textContent||elem.innerText||$(elem).text()||"").toLowerCase().indexOf((match[3]|| "").toLowerCase())>=0;}});
-        </script>
       </article>
       <div class="additional-information btc">
         <div class="left">
