@@ -19,13 +19,12 @@ a:hover{color:#50A5CC}
 p{text-align:justify}
 p,ul,ol{margin-bottom:1.5em}
 strong{font-weight:700}
-em{font-size:.7em}
 pre,code,tt{font-family:monospace;background-color:#fff;color:#737373;font-size:11px;padding:0}
 sup,sub{font-size:.8em;position:relative;display:inline-block;line-height:0}
 sub{bottom:-.5em}
 sup{top:-.5em}
 q{font-style:italic}
-small{font-size:.8em}
+small,em{font-size:.8em}
 figure{margin-bottom:30px}
 pre{border:1px solid #d9d9d9;counter-reset:line-numbering;border-radius:0;line-height:23px;white-space:pre;overflow-x:auto;word-break:inherit;word-wrap:inherit}
 pre code{text-align:left}
