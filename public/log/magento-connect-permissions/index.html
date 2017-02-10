@@ -14,6 +14,9 @@
     <meta property="og:image" content="https://sush.us/favicon.png"/>
     <meta property="og:site_name" content="Sush.us"/>
     <meta property="og:type" content="website"/>
+    <style>
+      .highlight .hll{background-color:#ffffcc}.highlight .c,.highlight .cm,.highlight .c1{color:#999988;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{color:#000;font-weight:bold}.highlight .cp,.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd,.highlight .gi{color:#000;background-color:#ffdddd}.highlight .ge{color:#000;font-style:italic}.highlight .gr,.highlight .gt{color:#aa0000}.highlight .gh,.highlight .bp{color:#999}.highlight .go{color:#888}.highlight .gp,.highlight .nn{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .kt,.highlight .nc{color:#445588;font-weight:bold}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#009999}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d01040}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:#008080}.highlight .nb{color:#0086B3}.highlight .nd{color:#3c5d5d;font-weight:bold}.highlight .ni{color:#800080}.highlight .ne,.highlight .nf,.highlight .nl{color:#990000;font-weight:bold}.highlight .nt{color:#000080}.highlight .ow{color:#000;font-weight:bold}.highlight .w{color:#bbb}.highlight .sr{color:#009926}.highlight .ss{color:#990073}
+    </style>
   </head><body>
     <header>
       <h1>Magento Connect Permissions</h1>
@@ -40,18 +43,16 @@ Linux Distro: Debian, Ubuntu and other debian-like distros
         <p>1) Make sure you’re in the root of the Magento directory.</p>
         <p>2) Setting permissions for every folder to 0777 (rwxrwxrwx) and every file to 0755 (rwxr-xr-x).</p>
         <p><em>Please note; if you’re running Magento on cPanel, you might get errors</em></p>
-        <div class="language-bash highlighter-rouge">
-          <pre class="highlight"><code>find . -type d -exec chmod 777 <span class="o">{}</span> <span class="se">\;</span>
-find . -type f -exec chmod 755 <span class="o">{}</span> <span class="se">\;</span>
-</code></pre>
-        </div>
+        <figure class="highlight">
+          <pre><code class="language-bash" data-lang="bash">find . -type d -exec chmod 777 <span class="o">{}</span> <span class="se">\;</span>
+find . -type f -exec chmod 755 <span class="o">{}</span> <span class="se">\;</span></code></pre>
+        </figure>
         <p>3) Install extentions via Magento Connect</p>
         <p>4) Reset permissions</p>
-        <div class="language-bash highlighter-rouge">
-          <pre class="highlight"><code>find . -type f -exec chmod 644 <span class="o">{}</span> <span class="se">\;</span>
-find . -type d -exec chmod 755 <span class="o">{}</span> <span class="se">\;</span>
-</code></pre>
-        </div>
+        <figure class="highlight">
+          <pre><code class="language-bash" data-lang="bash">find . -type f -exec chmod 644 <span class="o">{}</span> <span class="se">\;</span>
+find . -type d -exec chmod 755 <span class="o">{}</span> <span class="se">\;</span></code></pre>
+        </figure>
       </article>
       <div class="additional-information btc">
         <div class="left">

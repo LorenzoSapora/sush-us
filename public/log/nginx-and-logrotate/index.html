@@ -14,6 +14,9 @@
     <meta property="og:image" content="https://sush.us/favicon.png"/>
     <meta property="og:site_name" content="Sush.us"/>
     <meta property="og:type" content="website"/>
+    <style>
+      .highlight .hll{background-color:#ffffcc}.highlight .c,.highlight .cm,.highlight .c1{color:#999988;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{color:#000;font-weight:bold}.highlight .cp,.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd,.highlight .gi{color:#000;background-color:#ffdddd}.highlight .ge{color:#000;font-style:italic}.highlight .gr,.highlight .gt{color:#aa0000}.highlight .gh,.highlight .bp{color:#999}.highlight .go{color:#888}.highlight .gp,.highlight .nn{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .kt,.highlight .nc{color:#445588;font-weight:bold}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#009999}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d01040}.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:#008080}.highlight .nb{color:#0086B3}.highlight .nd{color:#3c5d5d;font-weight:bold}.highlight .ni{color:#800080}.highlight .ne,.highlight .nf,.highlight .nl{color:#990000;font-weight:bold}.highlight .nt{color:#000080}.highlight .ow{color:#000;font-weight:bold}.highlight .w{color:#bbb}.highlight .sr{color:#009926}.highlight .ss{color:#990073}
+    </style>
   </head><body>
     <header>
       <h1>Nginx and logrotate</h1>
@@ -32,30 +35,27 @@
         <p>Lets clean up our logs.</p>
         <p>This setup will work on nearly any debian (and debian forks such as ubuntu) setup.</p>
         <p>Here’s an excerpt from my nginx config.</p>
-        <div class="highlighter-rouge">
-          <pre class="highlight"><code>server {
-	[...]
-	server_name sudosushi.com;
-	access_log /user/sudosushi/sudosushi-log/access.log;
-	location / {
-		root /user/sudosushi/sudosushi/public;
-		index.html;
-		[...]
-	}
-	[...]
-}
-</code></pre>
-        </div>
+        <figure class="highlight">
+          <pre><code class="language-nginx" data-lang="nginx"><span class="k">server</span> <span class="p">{</span>
+	<span class="kn">[...]</span>
+	<span class="s">server_name</span> <span class="s">sudosushi.com</span><span class="p">;</span>
+	<span class="kn">access_log</span> <span class="n">/user/sudosushi/sudosushi-log/access.log</span><span class="p">;</span>
+	<span class="kn">location</span> <span class="n">/</span> <span class="p">{</span>
+		<span class="kn">root</span> <span class="n">/user/sudosushi/sudosushi/public</span><span class="p">;</span>
+		<span class="kn">index.html</span><span class="p">;</span>
+		<span class="kn">[...]</span>
+	<span class="err">}</span>
+	<span class="s">[...]</span>
+<span class="err">}</span></code></pre>
+        </figure>
         <p>As you can see, I store my access_logs is inside <code class="highlighter-rouge">/user/sudosushi/sudosushi-log/</code>. This is important for the next piece.</p>
         <p>Lets head over to <code class="highlighter-rouge">/etc/logrotate.d</code>. If you’ve already installed nginx, you’ll have a file called nginx inside. We need to edit it.</p>
-        <div class="highlighter-rouge">
-          <pre class="highlight"><code>nano /etc/logrotate.d/nginx
-
-</code></pre>
-        </div>
+        <figure class="highlight">
+          <pre><code class="language-bash" data-lang="bash">nano /etc/logrotate.d/nginx</code></pre>
+        </figure>
         <p>It’ll have something already inside. It’ll probably look like this</p>
-        <div class="highlighter-rouge">
-          <pre class="highlight"><code>/var/log/nginx/*.log {
+        <figure class="highlight">
+          <pre><code class="language-log" data-lang="log">/var/log/nginx/*.log {
         daily
         missingok
         rotate 52
@@ -67,19 +67,16 @@
         postrotate
                 [ -f /var/run/nginx.pid ] &amp;&amp; kill -USR1 `cat /var/run/nginx.pid`
         endscript
-}
-</code></pre>
-        </div>
+}</code></pre>
+        </figure>
         <h3 id="condensed-version">Condensed version</h3>
         <p>Simply type this to get the desired result.</p>
-        <div class="highlighter-rouge">
-          <pre class="highlight"><code>nano /etc/logrotate.d/nginx
-
-</code></pre>
-        </div>
+        <figure class="highlight">
+          <pre><code class="language-bash" data-lang="bash">nano /etc/logrotate.d/nginx</code></pre>
+        </figure>
         <p>Add to the end of the file</p>
-        <p><code class="highlighter-rouge">
-            /var/log/nginx/*.log {
+        <figure class="highlight">
+          <pre><code class="language-log" data-lang="log">/var/log/nginx/*.log {
         daily
         missingok
         rotate 52
@@ -91,9 +88,10 @@
         postrotate
                 [ -f /var/run/nginx.pid ] &amp;&amp; kill -USR1 `cat /var/run/nginx.pid`
         endscript
-}
-          </code> Done.&lt;/div&gt;&lt;div class="article"&gt;</p>
-        <h4 id="appendium">Appendium</h4>
+}</code></pre>
+        </figure>
+        <p>Done.</p>
+        <h2 id="appendium">Appendium</h2>
         <p>- The <code class="highlighter-rouge">[...]</code> denotes that information is redacted for the sake of space, clarity or it’s information you don’t need to know.</p>
         <p>- Nano is used in this walk through, but please don’t feel you have to use it. <code class="highlighter-rouge">vi</code> is a better text editor, but not as friendly to the enduser as we’d like. Agreed?</p>
       </article>

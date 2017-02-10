@@ -58,31 +58,5 @@ li:nth-child(2n+2){background-color:#fafafa}
 .next-prev{width:100%;background-color:#fff;margin:0 auto 50px;max-width:750px;padding:20px 55px;font-size:.8em;height:25px;border:2px solid #EAEAEA}
 .left,.right{display:inline-block;width:49%;text-align:left;vertical-align:top}
 .right{text-align:right}
-.highlight .hll{background-color:#ffffcc}
-.highlight .c,.highlight .cm,.highlight .c1{color:#999988;font-style:italic}
-.highlight .err{color:#a61717;background-color:#e3d2d2}
-.highlight .k,.highlight .o,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{color:#000;font-weight:bold}
-.highlight .cp,.highlight .cs{color:#999;font-weight:bold;font-style:italic}
-.highlight .gd,.highlight .gi{color:#000;background-color:#ffdddd}
-.highlight .ge{color:#000;font-style:italic}
-.highlight .gr,.highlight .gt{color:#aa0000}
-.highlight .gh,.highlight .bp{color:#999}
-.highlight .go{color:#888}
-.highlight .gp,.highlight .nn{color:#555}
-.highlight .gs{font-weight:bold}
-.highlight .gu{color:#aaa}
-.highlight .kt,.highlight .nc{color:#445588;font-weight:bold}
-.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#009999}
-.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx,.highlight .s1{color:#d01040}
-.highlight .na,.highlight .no,.highlight .nv,.highlight .vc,.highlight .vg,.highlight .vi{color:#008080}
-.highlight .nb{color:#0086B3}
-.highlight .nd{color:#3c5d5d;font-weight:bold}
-.highlight .ni{color:#800080}
-.highlight .ne,.highlight .nf,.highlight .nl{color:#990000;font-weight:bold}
-.highlight .nt{color:#000080}
-.highlight .ow{color:#000;font-weight:bold}
-.highlight .w{color:#bbb}
-.highlight .sr{color:#009926}
-.highlight .ss{color:#990073}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {header{width:100%;margin:0 auto;text-align:center;color:#5E5E5E;padding:10px 0 30px;font-weight:100;background-color:#fff;z-index:10;position:relative;border-bottom:1px solid #EAEAEA}.headsub{font-size:.65em;width:300px;margin:0 auto;font-weight:500;padding:5px 5px 2px;border-bottom:1px solid #999;border-top:1px solid #999;letter-spacing:.2em;text-transform:uppercase;color:#999}}
 @media print{header,section,article{width:100%}}
