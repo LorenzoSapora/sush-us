@@ -1,3 +1,7 @@
-# Personal blog https://sush.us
+# Sush.us
 
-Mirror from [sush-us on git.knowbl.co](https://git.knowbl.co/dev/sush-us/)
+Personal blog https://sush.us
+
+## Canonical source
+
+The canonical source of https://sush.us is [hosted on https://git.knowbl.co/dev/sush-us/](https://git.knowbl.co/dev/sush-us/).
