@@ -1,6 +1,6 @@
 # Sush.us
 
-Personal blog https://sush.us
+Personal blog [https://sush.us/](https://sush.us/)
 
 ## Canonical source
 
