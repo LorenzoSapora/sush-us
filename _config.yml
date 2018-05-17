@@ -1,0 +1,16 @@
+title: An Experiment in Development
+email: hello@sush.us
+author: Lorenzo Sapora
+description: 
+
+url: ""
+twitter_username: sudosushi
+github_username:  
+
+# Build settings
+destination: public
+permalink: /log/:title/
+markdown: kramdown
+theme: 
+plugins:
+  - jekyll-feed
