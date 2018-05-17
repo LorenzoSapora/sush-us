@@ -1,0 +1,29 @@
+
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+<div style="background:#6F5499;width:100%">
+	<div id="navigation">
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/contact/">Contact</a>
+		<a href="/portfolio/">Portfolio</a>
+		<a href="/log/">Log</a>
+	<div style="float:right;height:15px">
+		<a href="{{ site.subscribe_rss }}">{% include assets/rss.svg %}</a>
+		<a href="https://twitter.com/sudosushi" target="_blank">{% include assets/twitter.svg %}</a>
+		<a href="https://www.linkedin.com/in/lorenzo-s-43b77214b/" target="_blank">{% include assets/linkedin.svg %}</a>
+		<a href="https://git.knowbl.co/" target="_blank">{% include assets/github.svg %}</a>
+	</div>
+	</div>
+
+</div>
+  <header>{% include header.html %}</header>
+<main>
+      {{ content | expand_urls: root_url }}
+</main>
+
+<footer>{% include footer.html %}</footer>
+  {% include after_footer.html %}
+</body>
+</html>

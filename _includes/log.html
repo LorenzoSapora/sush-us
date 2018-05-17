@@ -1,0 +1,11 @@
+{% unless page.no_header %}
+    {% if index %}
+      <p class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+    {% else %}
+      <p class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+    {% endif %}
+    {% unless page.meta == false %}
+        <span style="color:#ccc!important">{% include post/date.html %}{{ time }}</span>
+      </p>
+    {% endunless %}
+{% endunless %}
