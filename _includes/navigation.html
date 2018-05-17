@@ -1,7 +1,13 @@
 <nav>
-	<a href="{{ root_url }}/">home</a>
-	<a href="{{ root_url }}/about">about</a>
-	<a href="{{ root_url }}/contact">contact</a>
-	<a href="{{ root_url }}/portfolio">portfolio</a>
-	<a href="{{ root_url }}/logs">log</a>
+	<a href="/">Home</a>
+	<a href="/about/">About</a>
+	<a href="/contact/">Contact</a>
+	<a href="/portfolio/">Portfolio</a>
+	<a href="/log/">Log</a>
+	<div style="float:right;height:15px">
+		<a href="{{ site.subscribe_rss }}">{% include assets/rss.svg %}</a>
+		<a href="https://twitter.com/sudosushi" target="_blank">{% include assets/twitter.svg %}</a>
+		<a href="https://www.linkedin.com/in/lorenzo-s-43b77214b/" target="_blank">{% include assets/linkedin.svg %}</a>
+		<a href="https://git.knowbl.co/" target="_blank">{% include assets/github.svg %}</a>
+	</div>
 </nav>
