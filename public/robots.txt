@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /brig/
-Disallow: /deck/
-Disallow: /escape-hatch/
-Disallow: /glados/
-
-Sitemap: https://sush.us/sitemap.xml
