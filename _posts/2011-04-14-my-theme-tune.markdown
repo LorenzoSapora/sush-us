@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "My theme tune"
-subtitle: "Nyananananan"
+main-title: "My theme tune"
+sub-title: "Nyananananan"
 description: "A poptart cat flying through space"
 date: 2011-04-14 16:00
 published: true

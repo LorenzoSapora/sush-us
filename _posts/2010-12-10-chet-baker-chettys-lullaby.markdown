@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "Chet Baker - Chetty's Lullaby"
-subtitle: "Heartfelt lullaby"
+main-title: "Chet Baker - Chetty's Lullaby"
+sub-title: "Heartfelt lullaby"
 description: "Chet Baker's Chetty's Lullaby. A song written for his first child"
 date: 2010-12-10 17:00
 published: true

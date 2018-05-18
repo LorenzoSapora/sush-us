@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "Cat Diaries"
-subtitle: "Through the eyes of a cat"
+main-title: "Cat Diaries"
+sub-title: "Through the eyes of a cat"
 description: "Friskies Cat Cam video"
 date: 2011-04-20 17:00
 published: true

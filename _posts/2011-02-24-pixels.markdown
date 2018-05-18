@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "Pixels."
-subtitle: "8-bit awesome"
+main-title: "Pixels."
+sub-title: "8-bit awesome"
 description: "A video by Patrick Jean named PIXELS"
 date: 2011-02-24 16:00
 published: true

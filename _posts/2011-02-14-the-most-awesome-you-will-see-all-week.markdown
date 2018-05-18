@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "The most awesome you will see all week"
-subtitle: "Acid isn't recommended"
+main-title: "The most awesome you will see all week"
+sub-title: "Acid isn't recommended"
 description: "Mashup video with songs by Telepopmusik and Zed's Dead"
 date: 2011-02-14 16:00
 published: true

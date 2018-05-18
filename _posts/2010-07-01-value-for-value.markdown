@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "Value for Value"
-subtitle: "Ads are for chumps"
+main-title: "Value for Value"
+sub-title: "Ads are for chumps"
 description: 
 date: 2010-07-01 5:01
 published: true

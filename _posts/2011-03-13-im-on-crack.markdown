@@ -1,7 +1,7 @@
 ---
 layout: log
-title: "I'm on crack"
-subtitle: "Cats cats cats"
+main-title: "I'm on crack"
+sub-title: "Cats cats cats"
 description: "Cats cats cats. A video by The Left Rights called I'm on Crack"
 date: 2011-03-13 16:00
 published: true
