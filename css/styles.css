@@ -20,6 +20,6 @@ nav{margin:0 auto;padding:8px 0;width:900px}
 nav a{margin-right:24px;color:#C5BAD6}
 nav a:hover{color:#fff}
 nav svg path{fill:#C5BAD6}
-nav a:hover ~ svg path{fill:#fff}
+nav a:hover *{fill:#fff}
 .date,.time{font-size:.8em;color:#bbb}
 .meta{margin-bottom:86px}
