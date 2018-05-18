@@ -1,3 +1,19 @@
 {% capture category %}{{ post.categories | size }}{% endcapture %}
 <h3><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
-<time datetime="{{ post.date | datetime | date_to_xmlschema }}">{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time></h3>
+	<span style="color:#ccc!important">
+		<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
+			{{ post.date | date: "<span class='date'>
+				<span class='date-month'>%b</span>
+				<span class='date-day'>%d</span>"}}
+				{% assign day = page.date | date: "%-d"  %}{% case day %}
+					{% when '1' or '21' or '31' %}{{ day }}st
+					{% when '2' or '22' %}{{ day }}nd
+					{% when '3' or '23' %}{{ day }}rd
+					{% else %}{{ day }}th
+				{% endcase %}{{ page.date | date: "of %B, %Y" }}
+
+				{{ post.date | date: "<span class='date-year'>%Y</span>
+			</span>
+			<span class='time'>%H:%M %P</span>"}}
+		</time>
+	</span></h3>
