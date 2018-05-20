@@ -17,6 +17,7 @@ h3{font-size:1.06em;font-weight:400}
 h5{text-transform:uppercase}
 #title{color:#222;font-size:2em}
 #sub-title{font-size:1.2em;color:#828282;font-style:italic}
+#skype-icon path{fill:#00AFF0}
 nav{margin:0 auto;padding:8px 0;width:900px}
 nav a{margin-right:24px;color:#C5BAD6}
 nav a:hover{color:#fff}
