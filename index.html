@@ -6,10 +6,11 @@ description: "TBC"
 keywords: "Development, Sush"
 ---
 
-{% for post in site.posts limit: 5 %}<article>
+{%- for post in site.posts limit: 5 -%}
+<article>
 	{% include article.html %}
 </article>
-{% endfor %}
+{%- endfor -%}
 <div class="pagination">
 	<a href="/log/">&larr; Log Archives</a>
 </div>
