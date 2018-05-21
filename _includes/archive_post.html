@@ -1,5 +1,5 @@
 {% capture category %}{{ post.categories | size }}{% endcapture %}
-<h3><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+<h3><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 	<span style="color:#ccc!important">
 		<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
 			{{ post.date | date: "<span class='date'>
