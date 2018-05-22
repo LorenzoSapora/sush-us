@@ -18,10 +18,12 @@ If you find a dead link, or want to request some content/information, please hea
 
 \- Blakedumb
 
+<ul>
 {%- for bdpe in site.data.bdpe -%}
-
-	<a href="{{ bdpe.original_link }}">{{ bdpe.name }}</a>
-	<a href="{{ bdpe.archive_link }}">Mirror link</a> 
-	{{ bdpe.release_date }}
-	
+	<li>
+		<a href="{{ bdpe.original_link }}">{{ bdpe.name }}</a>
+		<a href="{{ bdpe.archive_link }}">Mirror link</a> 
+		{{ bdpe.release_date }}
+	</li>
 {%- endfor -%}
+</ul>
