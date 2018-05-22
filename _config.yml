@@ -6,6 +6,7 @@ description:
 url: ""
 twitter_username: sudosushi
 github_username:  
+subscribe_rss: /feed.xml
 
 # Build settings
 destination: public
