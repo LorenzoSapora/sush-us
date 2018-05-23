@@ -12,9 +12,7 @@ hattip:
 
 This is possibly my favourite songs by Chet Baker. It's both beautiful and mellow (a perfect lullaby). I've transcribed the lyrics to the best of my ability. I'm always open to suggestions or tweaks or just leave a comment if you liked the song.<!--more-->
 
-<div class='embed-container'>
-	<object data="https://www.youtube.com/embed/LOwvDHAF5II"></object>
-</div>
+{% youtube "https://www.youtube.com/embed/LOwvDHAF5II" %}
 
 <div class="lyricbox">
 	<div class="col1" lang="it">
