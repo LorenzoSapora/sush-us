@@ -5,11 +5,13 @@
 		{% include navigation.html %}
 	</div>
 
-  <header>{% include header.html %}</header>
-<main>
-      {{ content | expand_urls: root_url }}
-</main>
+	<header>{% include header.html %}</header>
+	<main>
+		{{ content | expand_urls: root_url }}
+	</main>
 
-<footer>{% include footer.html %}</footer>
+	<footer>
+		{% include footer.html %}
+	</footer>
 </body>
 </html>
