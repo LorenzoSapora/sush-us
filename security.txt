@@ -1,1 +1,8 @@
-# TBC
+# If you have a security issue to report
+# you can use the details below
+Contact: https://sush.us/contact
+Encryption: https://sush.us/public.key
+
+# Mirror
+Contact: https://hackerone.com/lorenzo_sapora
+Encryption: https://keybase.io/sudos
