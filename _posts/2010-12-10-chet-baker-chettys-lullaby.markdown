@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-This is possibly my favourite songs by Chet Baker. It's both beautiful and mellow (a perfect lullaby). I've transcribed the lyrics to the best of my ability. I'm always open to suggestions or tweaks or just leave a comment if you liked the song.<!--more-->
+This is possibly my favourite songs by Chet Baker. It's both beautiful and mellow, a perfect lullaby. I have transcribed the lyrics to the best of my ability, and I am always open to suggestions or tweaks. <!--more-->
 
 {% youtube "https://www.youtube.com/embed/LOwvDHAF5II" %}
 
