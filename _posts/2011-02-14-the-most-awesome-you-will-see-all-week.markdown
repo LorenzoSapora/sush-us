@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-You may not like the style of music but I think you'll agree that this animation is beyond awesome. I've watched it way too many times today. Put on some headphones and enjoy.<!--more-->
+You may not like the style of music but I think you'll agree that this animation is beyond awesome. I have watched it way too many times today. Put on some headphones and enjoy. <!--more-->
 
 <div class='embed-container'>
 	<object data="https://www.youtube.com/embed/UNhMNUFIosQ"></object>
