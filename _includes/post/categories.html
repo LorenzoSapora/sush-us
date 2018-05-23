@@ -2,9 +2,9 @@
 {% unless category == '0' %}
 <span class="categories">
   {% if post %}
-    {{ post.categories | category_links }}
+    <a href="{{ post.categories.url }}">{{ post.categories | category_links }}</a>
   {% else %}
-    {{ page.categories | category_links }}
+    <a href="{{ page.categories | absolute_url }}">{{ page.categories | category_links }}</a>
   {% endif %}
 </span>
 {% endunless %}
