@@ -14,4 +14,5 @@ permalink: /log/:title/
 markdown: kramdown
 theme: 
 plugins:
-  - jekyll-feed  - jekyll-html5-youtube  - jekyll-html5-youtube
+  - jekyll-feed
+  - jekyll-html5-youtube
