@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-Insane New York invasion by 8-bits creatures! PIXELS is Patrick Jean' latest short film, shot on location in New York. This may have been posted 10 months ago but it's still amazing.<!--more-->
+Insane New York invasion by 8-bits creatures! PIXELS is Patrick Jean' latest short film, shot on location in New York. This may have been posted 10 months ago but it's still amazing.
 
 <div class='embed-container'>
 	<object data="https://www.youtube.com/embed/ugV6cLgwomo"></object>

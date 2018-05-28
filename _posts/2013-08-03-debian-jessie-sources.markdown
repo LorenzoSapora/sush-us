@@ -10,7 +10,7 @@ bitcoin: "1SudoStTCiZhobXsfeCP5Y8HGPdcK7uaW"
 hattip: 
 ---
 
-Basic repo sources for Debian 8.0 Jessie and Nginx. Posted mostly for my own needs.<!--more-->
+Basic repo sources for Debian 8.0 Jessie and Nginx. Posted mostly for my own needs. 
 
 ``` bash
 nano /etc/apt/sources.list

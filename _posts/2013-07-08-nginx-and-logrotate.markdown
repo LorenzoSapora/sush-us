@@ -10,7 +10,7 @@ bitcoin: "1SudoSTdEaMA2fqBkJ7rmZ1E14D4LsRFf"
 hattip: 
 ---
 
-An often overlooked aspect of any web server is the logs. Sure, you rush to them in your time of need when something's gone terribly wrong, but by that time it's too late and you're having to open/download/tail a massive file.<!--more--> Lets keep these files clean and ordered.
+An often overlooked aspect of any web server is the logs. Sure, you rush to them in your time of need when something's gone terribly wrong, but by that time it's too late and you're having to open/download/tail a massive file. Lets keep these files clean and ordered.
 
 Lets clean up our logs.
 

@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-CATS, CATS, CATS, CATS. I've been sitting here continuously hitting replay. This is just awesome. If this is what crack is like, I need to take on a new habit. I'm on crack! <!--more-->
+CATS, CATS, CATS, CATS. I've been sitting here continuously hitting replay. This is just awesome. If this is what crack is like, I need to take on a new habit. I'm on crack! 
 
 <div class='embed-container'>
 	<object data="https://www.youtube.com/embed/0GLoHifu6aM"></object>

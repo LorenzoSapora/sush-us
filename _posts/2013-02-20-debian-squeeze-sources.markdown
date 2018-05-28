@@ -10,7 +10,7 @@ bitcoin: "1SudoSK2wpBNJjmjh3binhNNgpt7Tyn88"
 hattip: 
 ---
 
-Basic repo sources for Debian 6.0 Squeeze and Nginx. Posted mostly for my own needs.<!--more-->
+Basic repo sources for Debian 6.0 Squeeze and Nginx. Posted mostly for my own needs.
 ``` bash
 $ nano /etc/apt/sources.list
 ```

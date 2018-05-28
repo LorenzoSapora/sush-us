@@ -10,7 +10,7 @@ bitcoin: "1SudoSMBt47RQ68vVXutuNwGLxiwprNFm"
 hattip: 
 ---
 
-Basic repo sources for Debian 7.0 Wheezy and Nginx. Posted mostly for my own needs.<!--more-->
+Basic repo sources for Debian 7.0 Wheezy and Nginx. Posted mostly for my own needs. 
 
 ``` bash
 nano /etc/apt/sources.list

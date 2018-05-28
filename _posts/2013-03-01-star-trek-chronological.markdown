@@ -10,7 +10,7 @@ bitcoin: "1SudoSaP5F2rfzKhhrN44hJVG6dZPE4WT"
 hattip: 
 ---
 
-A complete list of all Star trek movies and TV shows in chronological order. For those times when you've got a few months of free time to spare.<!--more-->
+A complete list of all Star trek movies and TV shows in chronological order. For those times when you've got a few months of free time to spare.
 
 <input type="text" id="search" value="" placeholder="Search..">
 <table id="startrek">

@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-Recently found Envy, a band from Japan. Apparently they’re huge but I’m only just learning about them now. Thanks a lot, internet. Enough talk, just watch.<!--more-->
+Recently found Envy, a band from Japan. Apparently they’re huge but I’m only just learning about them now. Thanks a lot, internet. Enough talk, just watch.
 
 <div class='embed-container'>
 	<object data="https://www.youtube.com/embed/PlQ5a-DPt8s"></object>

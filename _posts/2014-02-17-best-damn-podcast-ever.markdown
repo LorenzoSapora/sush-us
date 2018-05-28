@@ -10,7 +10,7 @@ bitcoin: "1SudoSRECHuyEDRHyDCbScGgGZj89i686"
 hattip: "Thanks to <a href='https://twitter.com/blakebuck'>@BLAKEBUCK</a>, <a href='https://twitter.com/willrmiller'>@WillRMiller</a> and <a href='https://twitter.com/dojotron_jt'>@dojotron_jt</a> for bringing the HEAT" 
 ---
 
-The complete archive of 94 (2 "lost" episodes were never published) episodes of the Best Damn Podcast Ever.<!--more-->
+The complete archive of 94 (2 "lost" episodes were never published) episodes of the Best Damn Podcast Ever. 
 
 Considering that I've lost direct access to the hosting platform, I'm backing up as much as I can before links start to rot. I am still keeping the dream of a complete 100 episodes alive. I'll update as often as I can.
 

@@ -10,7 +10,7 @@ bitcoin: 1SudoSTLJALYPHsu5EJk4boaBJ16p9F4d
 hattip: 
 ---
 
-To add extensions to Magento, you first need to allow Magento Connect to read, write and execute over the whole of the Magento directory.<!--more-->
+To add extensions to Magento, you first need to allow Magento Connect to read, write and execute over the whole of the Magento directory. 
 Keeping everything's permissions set to 777 (and 755) isn't the safest thing to leave on your system, so please, complete all the steps for optimium security.
 
 This will work on:

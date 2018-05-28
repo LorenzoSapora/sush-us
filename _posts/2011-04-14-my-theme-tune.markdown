@@ -10,7 +10,7 @@ bitcoin:
 hattip: 
 ---
 
-My only dream in life is to have this playing as I walk fly. And yes, that is a poptart cat.<!--more-->
+My only dream in life is to have this playing as I walk fly. And yes, that is a poptart cat.
 
 <div class='embed-container'>
 	<object data="https://www.youtube.com/embed/QH2-TGUlwu4"></object>	

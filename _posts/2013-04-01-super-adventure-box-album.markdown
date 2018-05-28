@@ -10,7 +10,7 @@ bitcoin: "1SudoSseCWUeR5XekWBMf5xcjSnzZNj7z"
 hattip: "ArenaNet's Guild Wars 2 team. https://www.guildwars2.com/en/"
 ---
 
-Releasing anything on April first is always a risky thing to do, but if you bundle it with a massive addition to the original game and then release the OST for **free**, you must be doing something right.<!--more-->
+Releasing anything on April first is always a risky thing to do, but if you bundle it with a massive addition to the original game and then release the OST for **free**, you must be doing something right. 
 
 Below you can check out all the tracks individually here.
 

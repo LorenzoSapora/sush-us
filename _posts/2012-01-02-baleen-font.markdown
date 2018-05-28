@@ -10,7 +10,7 @@ bitcoin: "1SudoSm3t9eZV7fAPtvuFNYPGtJxKTS73"
 hattip: 
 ---
 
-Progress so far: Still a long way to go.. Next step is to clean up the lines of the letters I'm happy with. This page will be updated throughout the month, so check back often as I continue with my 12 projects of 2012. I'd love feedback and criticism on this and any of my other up coming projects.<!-- more -->
+Progress so far: Still a long way to go.. Next step is to clean up the lines of the letters I'm happy with. This page will be updated throughout the month, so check back often as I continue with my 12 projects of 2012. I'd love feedback and criticism on this and any of my other up coming projects.
 
 #### Progress on hold until new macbook pro's come out ..Sorry.
 

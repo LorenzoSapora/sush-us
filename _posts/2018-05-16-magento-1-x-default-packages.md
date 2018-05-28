@@ -11,7 +11,7 @@ bitcoin: "1SudoSRECHuyEDRHyDCbScGgGZj89i686"
 hattip: 
 ---
 
-Magento 1.x requires a set of default packages to be installed. Recently I needed to untangle a very large Magento install from 5+ years of stale package installs, and move to `modman`.<!--more-->
+Magento 1.x requires a set of default packages to be installed. Recently I needed to untangle a very large Magento install from 5+ years of stale package installs, and move to `modman`. 
 
 <pre>
 Cm_RedisSession-1.9.3.8.xml
