@@ -14,23 +14,23 @@ Progress so far: Still a long way to go.. Next step is to clean up the lines of 
 
 #### Progress on hold until new macbook pro's come out ..Sorry.
 
-![Baleen week one final](baleen-weekone-final.png)
+![Baleen week one final](/img/baleen-weekone-final.png)
 
 #### Stage three - Parts to still work on
 
-![Baleen week one 3](baleen-weekone-3.png)
+![Baleen week one 3](/img/baleen-weekone-3.png)
 
 Points highlighted in red are sections I need to work on and improve. Need to clean up nearly all the lines but nearly done setting the framework for all the other letters, so an improvement.
 
 #### Stage two - Modifying the sketch
 
-![Baleen week one 2](baleen-weekone-2.png)
+![Baleen week one 2](/img/baleen-weekone-2.png)
 
 Separating the font styles and removing the serif to see how it feels.
 
 #### Stage one - Sketching the first few letters
 
-![Baleen week one 1](baleen-weekone-1.png)
+![Baleen week one 1](/img/baleen-weekone-1.png)
 
 Working on the first few letters ( B, a, l, e and n) to use as a starting block. After scanning in, I've started cleaning it up.
 Baleen was originally meant to be a straight italic font but after playing with the angle, I've grown to like the standard style.
