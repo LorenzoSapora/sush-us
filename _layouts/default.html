@@ -8,6 +8,9 @@
 	</div>
 
 	<header>{% include header.html %}</header>
+	
+	{% if jekyll.environment == "dev" %}{% include development-notice.html %}{% endif %}
+
 	<main>
 		{{ content | expand_urls: root_url }}
 	</main>
