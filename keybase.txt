@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/sudos
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sush.us
+  * I am sudos (https://keybase.io/sudos) on keybase.
+  * I have a public key with fingerprint ACF4 6F26 53D5 894C C074  4F8A CF91 90EF EB49 1E09
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017be1b22e842d7209e60f7d21a0fc60d0d8bc9aa1f77c51e14936a040d4e2a95d0a",
+      "fingerprint": "acf46f2653d5894cc0744f8acf9190efeb491e09",
+      "host": "keybase.io",
+      "key_id": "cf9190efeb491e09",
+      "kid": "01017be1b22e842d7209e60f7d21a0fc60d0d8bc9aa1f77c51e14936a040d4e2a95d0a",
+      "uid": "5c47d9249967a1d91990bb01b1b6ee19",
+      "username": "sudos"
+    },
+    "service": {
+      "hostname": "sush.us",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1527075106,
+  "expire_in": 157680000,
+  "prev": "e5dd0fe7f642e76aaab69ccf233ae436d49ac27697a275ab4333cb7a646aaed8",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMFFcYXYQ1gllYrFYMdJFBiSRbmJmdx87GsioKFRSlYB8KwXncYSfQmWVn
+ly0lNGBiWhQRWprUQhBQRKh2EyzFom14KFIt1EIMpQq0u0hqFwtBIz9sbWdI7a/+
+7P1zc88953zn+/LV6AI1qwK+r62Z9+82BAfcesBoDmkziVKIkbgSyFIKFYDlCxRy
+QHbmFQgcZIFgBEZIBiAMigIzhnIkClOAgHmSQxEa5lkC5mDOzLAUTSM8SbI4AhCM
+MhE0jMEcBlCawjmYhowQL4j5wGF3CKJTsaVZHiN4lMBNHG6mMJaFSQzjzQpMIRQM
+eMBgFAJgShHaJFlVKOEYWgYJgqRgyiNvOd5/8P/n3K5lO5zFSI5CMYoiSBrhlKIU
+zDAwwiAMAQCi1nXJwCHSbwOFLbs4SYbKjJACFQssUKeqtvHvt2xLcMmKxu6QnBIr
+FSqgzem0yxZV5Cyxqyw3YPL+0ecxgsgp81MUxcAhC5IIWRCFyToF1RDBURImcQQm
+jBB4xy44QJ6gMnCSMMPKUeuAYsUS4BwH84DkCQwFJLGfpmmGoFiWR00mGmAmgsMo
+mkVJgiJplMRpBjOZTCxD0gRG0DTgzJDaUpEoQRZKyUnnq80I+SLtdDkAVBZSucIU
+pAlYpXnpxZigC4+luKw7lXt6nfuOPd857Qp14TQhwfrnSGWKXnPh7sxPTamnQs/G
+v3/dnmzIjhl4qyf8Yuja8O4O7uBR3clxyTUb8nJ9e2773Oto41Kdt7mi2u9ZfX5w
+eoPuhnXDr1Nz3berU2JahsJca3Iffv74hSq4a/GDV8D5yJEb6yqWTrSsX4zQTXvl
+ptm7tW/sKk+YMLgqRr0/Zn46lPtVb0Tdw/rZsMVtJw5EBT0oSstK2vx76JebAn/r
+dG0vkZ/Ysa+jHWMXRdimF48faC34eS710alm7eqg1Epi57b75XMV0NXeq+UZl9Zs
+nLjXPtwpzXd/O5jxYc9rXeYBe7DWWNgfto64otOH+zyfTHuKNrXpvNY3t1rcDanZ
+waMzucnbo1ZqJz3uxMjonkGfB6vK+eZkTaH/ZuJBzeijDmzIc9jUsnRkt74rKcmQ
+Yz08s6Wh+skzX3bpri/WnolLTPNODUOX7T0xs+5M1rZwX9zby3ZENr2XwnbUjFUX
+NqSlH5uMH92yL9Zf658ouWntGbIeSQ98d/1wG7G0I/7QH7fEprGE/EunYxuPfned
+7EtId/fLRal/Zk3G/tV/+kzu0+j548FTEWhD6O32rc0l7VXjK7sNvmfets1n7/h+
+SB5cuvZqdl9z16i/T7/jY8g5klFb32C411I3v3BuYc+Ue6dxwNf5i+2cdXxj3Gee
+isaojuju1srW3jKdDh/JeXp5KODaR/1ag8145W8=
+=W20C
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sudos
+
+==================================================================

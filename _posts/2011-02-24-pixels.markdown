@@ -1,0 +1,22 @@
+---
+layout: log
+main-title: "Pixels."
+sub-title: "8-bit awesome"
+description: "A video by Patrick Jean named PIXELS"
+date: 2011-02-24 16:00
+published: true
+categories: 
+bitcoin: 
+hattip: 
+---
+
+Insane New York invasion by 8-bits creatures! PIXELS is Patrick Jean' latest short film, shot on location in New York. This may have been posted 10 months ago but it's still amazing.
+
+<div class='embed-container'>
+	<object data="https://www.youtube.com/embed/ugV6cLgwomo"></object>
+</div>
+
+*NOTE: Original link below, but due to Vimeo's archaic use of iframes, I've embedded the Youtube version from [One More](https://www.youtube.com/channel/UCLiD1F41jWK0kjIh268vTlw)*
+
+If you've got a few minutes, check out Patrick's other creations here: [https://vimeo.com/user3412550](https://vimeo.com/user3412550)
+Original Video here: [https://vimeo.com/10829255](https://vimeo.com/10829255)

@@ -1,0 +1,35 @@
+---
+layout: default
+single: true
+---
+
+{% if index %}
+  {{ content | excerpt }}
+  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+  {% if excerpted == 'true' %}
+      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+  {% endif %}
+{% else %}
+  {{ content }}
+{% endif %}
+{% unless page.no_header %}
+    {% unless page.meta == false %}
+      <div class="meta">
+        {% include post/date.html %}{{ time }}
+      </div>
+    {% endunless %}
+{% endunless %}
+
+    <p class="meta">
+      {% if page.previous.url %}
+        <a class="previous-page" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next-page" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+      {% endif %}
+    </p>
+
+        <p class="meta">
+      {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
+      {% include post/categories.html %}
+    </p>

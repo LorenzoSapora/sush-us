@@ -1,0 +1,16 @@
+---
+layout: default
+main-title: "An Experiment in Development"
+sub-title: "The search for speed and power"
+description: "TBC"
+keywords: "Development, Sush"
+---
+
+{%- for post in site.posts limit: 5 -%}
+<article>
+	{% include article.html %}
+</article>
+{%- endfor -%}
+<div class="pagination">
+	<a href="/log/">&larr; Log Archives</a>
+</div>
