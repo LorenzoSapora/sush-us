@@ -6,18 +6,14 @@ description: "TBC"
 keywords: "Lorenzo Sapora, contact, gpg, public key, email"
 ---
 
-Name Lorenzo Sapora
-Skype Lorenzo.Sapora
-Twitter @SudoSushi
-Git git.knowbl.co/public
-GPG Lets swap keys
-Email
+##### Best way to contact me
 
-Do you have a job offer? Question? Comment? You can email* me at lorenzo.sapora@gmail.com
+<p>{% include assets/twitter_contact.svg %} <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">@{{ site.twitter_username }}</a></p>
 
-*I read every email & respond to many. If I do not reply, it’s not personal and I’m just busy.
+<p>{% include assets/skype_contact.svg %} <a href="skype:{{ site.skype_username }}?chat" title="Skype">{{ site.skype_username }}</a></p>
 
-Here's my <a href="https://sush.us/public.key">public key</a> for lorenzo.sapora@gmail.com
+<p>{% include assets/gitlab2.svg %} <a href="https://git.knowbl.co/" title="Gitlab">Git versioning</a></p>
 
-ACF4 6F26 53D5 894C C074
-4F8A CF91 90EF EB49 1E09
+<p>{% include assets/gpg2.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="GPG Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+<p>{% include assets/fingerprint.svg %} {{ site.gpg_fingerprint }}</p>
