@@ -7,9 +7,10 @@
 		</nav>
 	</div>
 
+	{% if jekyll.environment == "dev" %}{% include development-notice.html %}{% endif %}
+
 	<header>
 		{% include header.html %}
-		{% if jekyll.environment == "dev" %}{% include development-notice.html %}{% endif %}
 	</header>
 
 	<main>
