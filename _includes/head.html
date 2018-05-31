@@ -50,6 +50,7 @@ nav a:hover *{fill:#fff}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}<link rel="canonical" href="{{ canonical }}">
   <link href="data:image/gif;base64,R0lGODdhFAAUAPAAAG9VmwAAACwAAAAAFAAUAEACEYSPqcvtD6OctNqLs968+68VADs=" rel="icon" type="image/x-icon" />
+  <link href="/css/styles.css" rel="stylesheet" type="text/css">
   <!--[if gt IE 8]><link href="{{ root_url }}/favicon.png" rel="icon><![endif]-->
   <link href="/feed.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
 </head>
