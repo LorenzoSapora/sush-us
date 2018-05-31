@@ -26,6 +26,5 @@ theme:
 plugins:
   - jekyll-feed
   - jekyll-html5-youtube
-  - jekyll-force-markdown
 
 exclude: ["README.md"]
