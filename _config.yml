@@ -26,3 +26,4 @@ theme:
 plugins:
   - jekyll-feed
   - jekyll-html5-youtube
+  - jekyll-force-markdown
