@@ -1,7 +1,8 @@
 
-url: ""
 title: "An Experiment in Development"
 description: ""
+url: "https://sush.us"
+url_dev: "https://dev.sush.us"
 email: "lorenzo.sapora@gmail.com"
 author: "Lorenzo Sapora"
 gpg_publickey: "/public.asc"
