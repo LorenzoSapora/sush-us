@@ -12,6 +12,14 @@ This blog runs on [Jekyll](https://jekyllrb.com). Check out [their installation 
 - Ruby
 - Ruby gems
 
+#### Requirement check
+
+```
+git --version
+ruby -v
+gem -v
+```
+
 ## Canonical source
 
 The canonical source of [https://sush.us](https://sush.us) is hosted on [https://git.knowbl.co/dev/sush-us/](https://git.knowbl.co/dev/sush-us/).
