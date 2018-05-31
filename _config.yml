@@ -1,11 +1,15 @@
-title: An Experiment in Development
-email: hello@sush.us
-author: Lorenzo Sapora
-description: 
 
 url: ""
-twitter_username: sudosushi
-github_username:  
+title: "An Experiment in Development"
+description: ""
+email: "lorenzo.sapora@gmail.com"
+author: "Lorenzo Sapora"
+gpg_publickey: "/public.asc"
+gpg_fingerprint: "ACF4 6F26 53D5 894C C074  4F8A CF91 90EF EB49 1E09"
+twitter_username: "SudoSushi"
+skype_username: "Lorenzo.Sapora"
+linkedin: "lorenzo-s-43b77214b"
+github_username: "LorenzoSapora"
 subscribe_rss: /feed.xml
 
 # Build settings
