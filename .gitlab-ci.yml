@@ -14,13 +14,13 @@ before_script:
   - chmod 644 ~/.ssh/known_hosts
   - bundle install
 
-test_development:
-  stage: test
-  environment: Development
-  only:
-  - dev
-  script:
-  - JEKYLL_ENV=dev bundle exec jekyll build
+#test_development:
+#  stage: test
+#  environment: Development
+#  only:
+#  - dev
+#  script:
+#  - JEKYLL_ENV=dev bundle exec jekyll build
 
 deploy_development:
   stage: deploy
@@ -28,4 +28,4 @@ deploy_development:
   only:
   - dev
   script:
-  - ssh -t sush@dev.sush.us "cd /home/sush/web-dev/;git pull;JEKYLL_ENV=dev jekyll build;"
+  - ssh -t sush@dev.sush.us "cd /home/sush/web-dev/;git pull;jekyll build;"
