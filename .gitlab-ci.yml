@@ -10,15 +10,3 @@ test:
   artifacts:
     paths:
     - test
-  except:
-  - master
-
-pages:
-  stage: deploy
-  script:
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
