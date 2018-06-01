@@ -42,3 +42,9 @@ Debian/Windows Server, Nginx/Apache, Puppet, Ansible, Kubernetes, Docker, AWS, T
 
 PHP. Cocoa. Python. SQL. Ngnix. Apache. HTML. Bash. Lua. Go.
 Photoshop. Illustrator. InDesign. Quark. Flash(grudgingly).  Fireworks.
+
+#### About this site
+
+This is mostly a personal blog [https://sush.us/](https://sush.us/). Updated rarely.
+
+I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
