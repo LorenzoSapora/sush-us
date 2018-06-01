@@ -1,5 +1,7 @@
 # Sush.us
 
+[![pipeline status](https://git.knowbl.co/web/sush/sush-us/badges/dev/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/dev)
+
 Personal blog [https://sush.us/](https://sush.us/). Updated rarely.
 
 ## Install
