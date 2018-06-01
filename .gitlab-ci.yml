@@ -20,7 +20,7 @@ test_development:
   only:
   - dev
   script:
-  - JEKYLL_ENV=dev jekyll build
+  - JEKYLL_ENV=dev bundle exec jekyll build
 
 deploy_development:
   stage: deploy
