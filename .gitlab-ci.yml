@@ -24,3 +24,13 @@ test_development:
   artifacts:
     paths:
     - test
+
+deploy_development:
+  stage: deploy
+  environment: Development
+  only:
+  - dev
+  script:
+  - ssh sush@dev.sush.us
+  - cd /home/sush/web-dev/
+  - JEKYLL_ENV="dev" jekyll build
