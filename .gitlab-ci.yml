@@ -1,8 +1,8 @@
 image: ruby:2.3
 
-cache:
-  paths:
-  - vendor/
+#cache:
+#  paths:
+#  - vendor/
 
 before_script:
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
@@ -12,7 +12,7 @@ before_script:
   - chmod 700 ~/.ssh
   - ssh-keyscan dev.sush.us >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
-  - bundle install --path vendor
+  - bundle install
 
 test_development:
   stage: test
