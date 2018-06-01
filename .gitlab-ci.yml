@@ -1,15 +1,12 @@
 image: ruby:2.3
 
-variables:
-  JEKYLL_ENV: dev
-
 before_script:
   - bundle install
 
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+  - bundle exec JEKYLL_ENV=dev jekyll build
   artifacts:
     paths:
     - test
