@@ -3,7 +3,7 @@ image: ruby:2.3
 before_script:
   - bundle install
 
-test:
+test_development:
   stage: test
   script:
   - bundle exec JEKYLL_ENV=dev jekyll build
