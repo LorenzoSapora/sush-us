@@ -6,6 +6,8 @@ before_script:
 test_development:
   stage: test
   environment: Development
+  only:
+  - dev
   script:
   - bundle exec JEKYLL_ENV=dev jekyll build
   artifacts:
