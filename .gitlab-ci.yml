@@ -21,9 +21,6 @@ test_development:
   - dev
   script:
   - JEKYLL_ENV=dev jekyll build
-  artifacts:
-    paths:
-    - test
 
 deploy_development:
   stage: deploy
