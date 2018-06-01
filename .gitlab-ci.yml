@@ -9,7 +9,7 @@ test_development:
   only:
   - dev
   script:
-  - bundle exec JEKYLL_ENV=dev jekyll build
+  - JEKYLL_ENV=dev jekyll build
   artifacts:
     paths:
     - test
