@@ -13,7 +13,5 @@ keywords: "Development, Sush"
   {% assign year = this_year %}
   <h2>{{ year }}</h2>
 {% endunless %}
-<article>
   {% include archive_post.html %}
-</article>
 {% endfor %}

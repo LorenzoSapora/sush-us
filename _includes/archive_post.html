@@ -1,4 +1,5 @@
 {% capture category %}{{ post.categories | size }}{% endcapture %}
+<article>
 <h3><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 	<span style="color:#ccc!important">
 		<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
@@ -19,3 +20,4 @@
 		</time>
 	</span>
 </h3>
+</article>
