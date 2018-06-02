@@ -16,5 +16,5 @@ You may not like the style of music but I think you'll agree that this animation
 	<object data="https://www.youtube.com/embed/UNhMNUFIosQ"></object>
 </div>
 
-Song:Zeds Dead: White Satin (Dubstep Remix) &amp; Telepopmusik: Breath.
-Composed by <a href="https://www.youtube.com/razman93">Raz Munteanu</a>
+Song: Zeds Dead: White Satin (Dubstep Remix) &amp; Telepopmusik: Breath.
+Composed by [Raz Munteanu](https://www.youtube.com/razman93)
