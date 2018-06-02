@@ -30,3 +30,10 @@ deploy_development:
   script:
   - ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
 
+#deploy_development_test:
+#  stage: deploy
+#  environment: Development
+#  only:
+#  - dev
+#  script:
+#  - 
