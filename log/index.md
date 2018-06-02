@@ -11,7 +11,7 @@ keywords: "Development, Sush"
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
   {% assign year = this_year %}
-  <h2>{{ year }}</h2>
+### {{ year }}
 {% endunless %}
   {% include archive_post.html %}
 {% endfor %}
