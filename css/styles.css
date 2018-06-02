@@ -4,6 +4,10 @@
 @media (max-width:590px){
   nav div{display:none}
 }
+@media (max-width:490px){
+	nav{display:flex;justify-content:space-around;padding:0}
+	nav a{font-size:1em;margin:0;text-align:center;padding:8px}
+}
 @media print { 
 
 }
