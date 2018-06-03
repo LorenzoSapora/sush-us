@@ -19,6 +19,8 @@ test_development:
   environment: Development
   only:
   - dev
+  except:
+  - skip-test
   script:
   - JEKYLL_ENV=dev bundle exec jekyll build
 
@@ -27,6 +29,8 @@ deploy_development:
   environment: Development
   only:
   - dev
+  except:
+  - skip-deploy
   script:
   - ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
 
