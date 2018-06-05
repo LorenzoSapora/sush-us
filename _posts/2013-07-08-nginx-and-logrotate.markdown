@@ -93,6 +93,3 @@ Done.
 
 \- Nano is used in this walk through, but please don't feel you have to use it. `vi` is a better text editor, but not as friendly to the enduser as we'd like. Agreed?
 
-
-
-
