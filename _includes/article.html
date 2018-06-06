@@ -1,6 +1,5 @@
 <h3 class="entry-title">
 	<a href="{{ root_url }}{{ post.url }}">{{ post.main-title }}</a>
-	<span style="color:#ccc!important">
 		<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
 			{{ post.date | date: "<span class='date'>
 				<span class='date-month'>%b</span>
@@ -16,5 +15,4 @@
 			</span>
 			<span class='time'>%H:%M %P</span>"}}
 		</time>
-	</span>
 </h3>
