@@ -1,18 +1,18 @@
 <h3 class="entry-title">
 	<a href="{{ root_url }}{{ post.url }}">{{ post.main-title }}</a>
-		<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
-			{{ post.date | date: "<span class='date'>
-				<span class='date-month'>%b</span>
-				<span class='date-day'>%d</span>"}}
-				{%- assign day = page.date | date: "%-d"  -%}{% case day %}
-					{% when '1' or '21' or '31' %}{{ day }}st
-					{% when '2' or '22' %}{{ day }}nd
-					{% when '3' or '23' %}{{ day }}rd
-					{% else %}{{ day }}th
-				{% endcase %}{{ page.date | date: "of %B, %Y" }}
+	<time class="entry-date" datetime="{{ post.date | datetime | date_to_xmlschema }}">
+		{{ post.date | date: "<span class='date'>
+			<span class='date-month'>%b</span>
+			<span class='date-day'>%d</span>"}}
+			{%- assign day = page.date | date: "%-d"  -%}{% case day %}
+				{% when '1' or '21' or '31' %}{{ day }}st
+				{% when '2' or '22' %}{{ day }}nd
+				{% when '3' or '23' %}{{ day }}rd
+				{% else %}{{ day }}th
+			{% endcase %}{{ page.date | date: "of %B, %Y" }}
 
-				{{ post.date | date: "<span class='date-year'>%Y</span>
-			</span>
-			<span class='time'>%H:%M %P</span>"}}
-		</time>
+			{{ post.date | date: "<span class='date-year'>%Y</span>
+		</span>
+		<span class='time'>%H:%M %P</span>"}}
+	</time>
 </h3>
