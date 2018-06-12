@@ -20,7 +20,7 @@ single: true
     {% endunless %}
 {% endunless %}
 
-    <p class="meta">
+    <p class="meta flex">
       {% if page.previous.url %}
         <a class="previous-page" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&larr; {{page.previous.title}}</a>
       {% endif %}
@@ -29,7 +29,7 @@ single: true
       {% endif %}
     </p>
 
-        <p class="meta">
+        <p class="meta flex">
       {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
       {% include post/categories.html %}
     </p>
