@@ -6,7 +6,7 @@ description: "TBC"
 keywords: "Lorenzo Sapora, contact, gpg, public key, email"
 ---
 
-##### Best way to contact me
+#### Best way to contact me
 
 <p>{% include assets/twitter_contact.svg %} <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">@{{ site.twitter_username }}</a></p>
 
