@@ -16,4 +16,5 @@ keywords: "Lorenzo Sapora, contact, gpg, public key, email"
 
 <p>{% include assets/gpg2.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="GPG Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
-<p>{% include assets/fingerprint.svg %} {{ site.gpg_fingerprint }}</p>
+<p>{% include assets/fingerprint.svg %} <code>{{ site.gpg_fingerprint }}</code></p>
+
