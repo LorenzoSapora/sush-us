@@ -1,0 +1,19 @@
+<div class="projects flex">
+	{% for project in site.data.projects_public | sort:"name" %}
+	{% assign code_language = project.tag_list[0] %}
+	{% assign code_framework = project.tag_list[1] %}
+	<a href="{{ project.link }}" class="project-box" target="_blank">
+		<div class="flex">
+			<div class="p-main">
+				<div class="p-box">{{ project.name }}</div> 
+				<div class="p-desc">{{ project.description | truncate: 140 }}</div>
+			</div>
+			<div class="p-aside">
+				Built with{% include assets/{{ code_language }}.svg %}
+				{% if code_framework == null %}{% else %}
+				Built for{% include assets/{{ code_framework }}.svg %}{% endif %}
+			</div>
+		</div>
+	</a>
+	{% endfor %}
+</div>
