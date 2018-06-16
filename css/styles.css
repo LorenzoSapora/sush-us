@@ -2,5 +2,7 @@
 layout: null
 ---
 
+{% include css/languages.css %}
+
 {% include css/media.css %}
 {% include css/print.css %}
