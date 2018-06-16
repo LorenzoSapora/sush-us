@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Gitlab (personal)",
+		"url":"https://git.knowbl.co/",
+		"logo":"gitlab"
+	},
+	{
+		"name":"Gitlab",
+		"url":"https://gitlab.com/LorenzoSapora",
+		"logo":"gitlab"
+	},
+	{
+		"name":"Github",
+		"url":"https://github.com/LorenzoSapora",
+		"logo":"github"
+	},
+	{
+		"name":"Bitbucket",
+		"url":"https://bitbucket.org/LorenzoSapora",
+		"logo":"bitbucket"
+	}
+]
