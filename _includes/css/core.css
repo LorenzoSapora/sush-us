@@ -40,3 +40,4 @@ nav a:hover *{fill:#fff}
 .flex{display:flex;justify-content:space-between}
 .boxes{flex-wrap:wrap}
 .box{margin-bottom:24px;padding:24px;border:1px solid rgba(0,0,0,.1);border-radius:5px;width:calc(50% - 16px);justify-content:space-between;align-items:center;align-content:stretch}
+.box .p-box{font-size:1.2em;font-weight:700}
