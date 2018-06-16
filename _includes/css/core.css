@@ -7,6 +7,7 @@ footer{padding-top:86px}
 ul{list-style:none}
 p{font-size:17px}
 a{text-decoration:none;color:#222;border-bottom:3px solid rgba(111,84,153,.4)}
+a:active{color:#aaa}
 a:hover{background:rgba(111,84,153,.1)}
 a:hover.box{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
 a:active.box{background:none;box-shadow:inset 0 0 10px 0 rgba(0,0,0,.18)}
