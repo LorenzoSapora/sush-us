@@ -8,8 +8,8 @@ ul{list-style:none}
 p{font-size:17px}
 a{text-decoration:none;color:#222;border-bottom:3px solid rgba(111,84,153,.4)}
 a:hover{background:rgba(111,84,153,.1)}
-a:hover.project-box{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
-a:active.project-box{background:none;box-shadow:inset 0 0 10px 0 rgba(0,0,0,.18)}
+a:hover.box{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
+a:active.box{background:none;box-shadow:inset 0 0 10px 0 rgba(0,0,0,.18)}
 svg{height:100%}
 img{width:100%}
 pre{display:block;margin-top:0;margin-bottom:1em;padding:1em;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;border:1px solid #e6e1dc;font-family:monospace!important}
