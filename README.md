@@ -1,6 +1,6 @@
 # Sush.us
 
-[![pipeline status](https://git.knowbl.co/web/sush/sush-us/badges/dev/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/dev)
+[![master status](https://git.knowbl.co/web/sush/sush-us/badges/master/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/master)[![dev status](https://git.knowbl.co/web/sush/sush-us/badges/dev/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/dev)
 
 Personal blog [https://sush.us/](https://sush.us/). Updated rarely.
 
