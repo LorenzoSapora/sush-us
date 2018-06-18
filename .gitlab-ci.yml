@@ -28,9 +28,6 @@ dev_deploy:
   environment: Development
   only:
   - dev
-  except:
-    variables:
-      - $CI_COMMIT_TAG == "skip-pipeline"
   script:
   - ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
 
