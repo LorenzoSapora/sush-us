@@ -2,5 +2,6 @@ sush-us.sublime-workspace
 sush-us.sublime-project
 
 public
+vendor
 .sass-cache/
 .jekyll-metadata
