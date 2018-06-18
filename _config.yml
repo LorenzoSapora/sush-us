@@ -29,4 +29,4 @@ plugins:
   - jekyll-feed
   - jekyll-html5-youtube
 
-exclude: ["README.md"]
+exclude: ["README.md","vendor/*"]
