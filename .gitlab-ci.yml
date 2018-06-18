@@ -12,7 +12,7 @@ before_script:
   - chmod 700 ~/.ssh
   - ssh-keyscan dev.sush.us >> ~/.ssh/known_hosts
   - chmod 644 ~/.ssh/known_hosts
-  - bundle install --path=vendor/
+  - gem install bundler
 
 test_development:
   stage: test
@@ -23,6 +23,7 @@ test_development:
     variables:
       - $CI_COMMIT_TAG == "skip-pipeline"
   script:
+  - bundle install --path=vendor/
   - JEKYLL_ENV=dev bundle exec jekyll build
 
 deploy_development:
