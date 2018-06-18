@@ -37,6 +37,7 @@ prod_test:
   only:
   - master
   script:
+  - bundle install --path=vendor/
   - JEKYLL_ENV=prod bundle exec jekyll build
 
 prod_deploy:
