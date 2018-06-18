@@ -2,10 +2,17 @@
 <body>
 
 	<div style="background:#6F5499;width:100%">
-		<nav>{% include navigation.html %}</nav>
+		<nav>
+			{% include navigation.html %}
+		</nav>
 	</div>
 
-	<header>{% include header.html %}</header>
+	{% if jekyll.environment == "dev" %}{% include development-notice.html %}{% endif %}
+
+	<header>
+		{% include header.html %}
+	</header>
+
 	<main>
 		{{ content | expand_urls: root_url }}
 	</main>

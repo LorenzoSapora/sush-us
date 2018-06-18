@@ -1,0 +1,730 @@
+series,id,stardate,title
+Enterprise,6101,2151-04,Broken Bow
+Enterprise,6102,2151-05,Fight or Flight
+Enterprise,6103,2151,Strange New World
+Enterprise,6104,2151,Unexpected
+Enterprise,6105,2151,Terra Nova
+Enterprise,6106,2151,Andorian Incident
+Enterprise,6107,2151,Breaking the Ice
+Enterprise,6108,2151-07,Civilization
+Enterprise,6109,2151,Fortunate Son
+Enterprise,6110,2151,Cold Front
+Enterprise,6111,2151-09,Silent Enemy
+Enterprise,6112,2151,Dear Doctor
+Enterprise,6113,2151,Sleeping Dogs
+Enterprise,6114,2151,Shadows of P'Jem
+Enterprise,6115,2151-11,Shuttlepod One
+Enterprise,6116,2151,Fusion
+Enterprise,6117,2151,Rogue Planet
+Enterprise,6118,2151,Acquisition
+Enterprise,6119,2152,Oasis
+Enterprise,6120,2152,Detained
+Enterprise,6121,2152,Vox Sola
+Enterprise,6122,2152-02,Fallen Hero
+Enterprise,6123,2152-02,Desert Crossing
+Enterprise,6124,2152-02,Two Days and Two Nights
+Enterprise,6125,2152,Shockwave Part I
+Enterprise,6201,2152,Shockwave Part II
+Enterprise,6202,2152-04,Carbon Creek
+Enterprise,6203,2152,Minefield
+Enterprise,6204,2152,Dead Stop
+Enterprise,6205,2152,Night in Sickbay
+Enterprise,6206,2152,Marauders
+Enterprise,6207,2152,Seventh
+Enterprise,6208,2152,Communicator
+Enterprise,6209,2152,Singularity
+Enterprise,6210,2152,Vanishing Point
+Enterprise,6211,2152-09,Precious Cargo
+Enterprise,6212,2152-09,Catwalk
+Enterprise,6213,2152,Dawn
+Enterprise,6214,2152,Stigma
+Enterprise,6215,2152,Cease Fire
+Enterprise,6216,2152,Future Tense
+Enterprise,6217,2152,Canamar
+Enterprise,6218,2152,Crossing
+Enterprise,6219,2152,Judgment
+Enterprise,6220,2153-01,Horizon
+Enterprise,6221,2153,Breach
+Enterprise,6222,2153,Cogenitor
+Enterprise,6223,2153-03,Regeneration
+Enterprise,6224,2153-03,First Flight
+Enterprise,6225,2153-03,Bounty
+Enterprise,6226,2153-04,Expanse
+Enterprise,6301,2153,Xindi
+Enterprise,6302,2153,Anomaly
+Enterprise,6303,2153,Extinction
+Enterprise,6304,2153,Rajiin
+Enterprise,6305,2153,Impulse
+Enterprise,6306,2153,Exile
+Enterprise,6307,2153,Shipment
+Enterprise,6308,2153,Twilight
+Enterprise,6309,2153,North Star
+Enterprise,6310,2153,Similitude
+Enterprise,6311,2153,Carpenter Street
+Enterprise,6312,2153,Chosen Realm
+Enterprise,6313,2153-12,Proving Ground
+Enterprise,6314,2153-12,Stratagem
+Enterprise,6315,2153-12,Harbinger
+Enterprise,6316,2154-01,Doctor's Orders
+Enterprise,6317,2154-01,Hatchery
+Enterprise,6318,2154,Azati Prime
+Enterprise,6319,2154,Damage
+Enterprise,6320,2154,Forgotten
+Enterprise,6321,2154,E2
+Enterprise,6322,2154,Council
+Enterprise,6323,2154-02,Countdown
+Enterprise,6324,2154-02,Zero Hour
+Enterprise,6401,2154,Storm Front Part I
+Enterprise,6402,2154,Storm Front Part II
+Enterprise,6403,2154,Home
+Enterprise,6404,2154-05,Borderland
+Enterprise,6405,2154-05,Cold Station 12
+Enterprise,6406,2154-05,Augments
+Enterprise,6407,2154,Forge
+Enterprise,6408,2154,Awakening
+Enterprise,6409,2154,Kir'Shara
+Enterprise,6410,2154,Daedalus
+Enterprise,6411,2154,Observer Effect
+Enterprise,6412,2154-11,Babel One
+Enterprise,6413,2154-11,United
+Enterprise,6414,2154-11,Aenar
+Enterprise,6415,2154-11,Affliction
+Enterprise,6416,2154,Divergence
+Enterprise,6417,2154-12,Bound
+Enterprise,6418,2154-12,In a Mirror Darkly Part I
+Enterprise,6419,2155-01,In a Mirror Darkly Part II
+Enterprise,6420,2155-01,Demons
+Enterprise,6421,2155,Terra Prime
+Enterprise,6422,2161,These Are the Voyages
+Original Series,1101,2254,Cage
+Original Series,1102,2266-10,Where No Man Has Gone Before
+Original Series,1103,2266-11,Corbomite Maneuver
+Original Series,1104,2266-10,Mudd's Women
+Original Series,1105,2266-12,Enemy Within
+Original Series,1106,2266-11,Man Trap
+Original Series,1107,2266-12,Naked Time
+Original Series,1108,2266-11,Charlie X
+Original Series,1109,2266-12,Balance of Terror
+Original Series,1110,2267-07,What Are Little Girls Made Of?
+Original Series,1111,2267-07,Dagger of the Mind
+Original Series,1112,2267-07,Miri
+Original Series,1113,2267-08,Conscience of the King
+Original Series,1114,2267-08,Galileo Seven
+Original Series,1115,2267-08,Court Martial
+Original Series,1116,2267-09,Menagerie Part I
+Original Series,1117,2267-09,Menagerie Part II
+Original Series,1118,2267-09,Shore Leave
+Original Series,1119,2267-03,Squire of Gothos
+Original Series,1120,2267-09,Arena
+Original Series,1121,2267-09,Alternative Factor
+Original Series,1122,2267-10,Tomorrow is Yesterday
+Original Series,1123,2267-10,Return of the Archons
+Original Series,1124,2267-10,Taste of Armageddon
+Original Series,1125,2267-10,Space Seed
+Original Series,1126,2267-12,This Side of Paradise
+Original Series,1127,2267-10,Devil in the Dark
+Original Series,1128,2267-10,Errand of Mercy
+Original Series,1129,2267-10,City on the Edge of Forever
+Original Series,1130,2267-11,Operation: Annihilate!
+Original Series,1201,2267-09,Catspaw
+Original Series,1202,2267-10,Metamorphosis
+Original Series,1203,2267-12,Friday's Child
+Original Series,1204,2267-12,Who Mourns for Adonais?
+Original Series,1205,2267-11,Amok Time
+Original Series,1206,2268-05,Doomsday Machine
+Original Series,1207,2268-01,Wolf in the Fold
+Original Series,1208,2267-12,Changeling
+Original Series,1209,2268-02,Apple
+Original Series,1210,2267,Mirror Mirror
+Original Series,1211,2267-12,Deadly Years
+Original Series,1212,2268-07,I Mudd
+Original Series,1213,2268-07,Trouble with Tribbles
+Original Series,1214,2268-04,Bread and Circuses
+Original Series,1215,2268-02,Journey to Babel
+Original Series,1216,2268-05,Private Little War
+Original Series,1217,2267-10,Gamesters of Triskelion
+Original Series,1218,2268-01,Obsession
+Original Series,1219,2268-05,Immunity Syndrome
+Original Series,1220,2268-07,Piece of the Action
+Original Series,1221,2268-08,By Any Other Name
+Original Series,1222,2268-08,Return to Tomorrow
+Original Series,1223,2267-04,Patterns of Force
+Original Series,1224,2268-08,Ultimate Computer
+Original Series,1225,2268,Omega Glory
+Original Series,1226,2268,Assignment Earth
+Original Series,1301,2268-06,Spectre of the Gun
+Original Series,1302,2268-05,Elaan of Troyius
+Original Series,1303,2268-09,Paradise Syndrome
+Original Series,1304,2268-10,Enterprise Incident
+Original Series,1305,2268-10,And the Children Shall Lead
+Original Series,1306,2269-01,Spock's Brain
+Original Series,1307,2269-02,Is There in Truth No Beauty?
+Original Series,1308,2268-11,Empath
+Original Series,1309,2269-03,Tholian Web
+Original Series,1310,2269-01,For the World Is Hollow ..
+Original Series,1311,2269,Day of the Dove
+Original Series,1312,2269-03,Plato's Stepchildren
+Original Series,1313,2269-03,Wink of an Eye
+Original Series,1314,2269,That Which Survives
+Original Series,1315,2269-03,Let That Be Your Last Battlefield
+Original Series,1316,2269-03,Whom Gods Destroy
+Original Series,1317,2269-01,Mark of Gideon
+Original Series,1318,2269-03,Lights of Zetar
+Original Series,1319,2269-03,Cloud Minders
+Original Series,1320,2269-03,Way to Eden
+Original Series,1321,2269-04,Requiem for Methuselah
+Original Series,1322,2269-04,Savage Curtain
+Original Series,1323,2269-04,All Our Yesterdays
+Original Series,1324,2269-03,Turnabout Intruder
+Theatrical 1,M-01,2272-01,Star Trek: The Motion Picture
+Theatrical 2,M-02,2285-05,Star Trek 2: The Wrath of Khan
+Theatrical 3,M-03,2285-10,Star Trek 3: The Search for Spock
+Theatrical 4,M-04,2286-10,Star Trek 4: The Voyage Home
+Theatrical 5,M-05,2287-02,Star Trek 5: The Final Frontier
+Theatrical 6,M-06,2292-12,Star Trek 6: The Undiscovered Country
+Next Generation,3101,2364-02,Encounter at Farpoint Part I
+Next Generation,3102,2364-02,Encounter at Farpoint Part II
+Next Generation,3103,2364-03,Naked Now
+Next Generation,3104,2364-03,Code of Honor
+Next Generation,3105,2364-04,Haven
+Next Generation,3106,2364-04,Where No One Has Gone Before
+Next Generation,3107,2364-05,Last Outpost
+Next Generation,3108,2364-04,Lonely Among Us
+Next Generation,3109,2364-04,Justice
+Next Generation,3110,2364-09,Battle
+Next Generation,3111,2364-08,Hide and Q
+Next Generation,3112,2364-04,Too Short a Season
+Next Generation,3113,2364-12,Big Goodbye
+Next Generation,3114,2364-03,Datalore
+Next Generation,3115,2364-08,Angel One
+Next Generation,3116,2364-05,11001001
+Next Generation,3117,2364-06,Home Soil
+Next Generation,3118,2364-07,When the Bough Breaks
+Next Generation,3119,2364-05,Coming of Age
+Next Generation,3120,2364-07,Heart of Glory
+Next Generation,3121,2364-10,Arsenal of Freedom
+Next Generation,3123,2364-08,Symbiosis
+Next Generation,3122,2364-08,Skin of Evil
+Next Generation,3124,2364-09,We'll Always Have Paris
+Next Generation,3125,2364-10,Conspiracy
+Next Generation,3126,2364-12,Neutral Zone
+Next Generation,3201,2365-01,Child
+Next Generation,3202,2365-03,Where Silence Has Lease
+Next Generation,3203,2365-04,Elementary Dear Data
+Next Generation,3204,2365-05,Outrageous Okona
+Next Generation,3205,2365-06,Schizoid Man
+Next Generation,3206,2365-06,Loud As a Whisper
+Next Generation,3207,2365-06,Unnatural Selection
+Next Generation,3208,2365-07,Matter of Honor
+Next Generation,3209,2365-07,Measure of a Man
+Next Generation,3210,2365-07,Dauphin
+Next Generation,3211,2365-08,Contagion
+Next Generation,3212,2365-08,Royale
+Next Generation,3213,2365-09,Time Squared
+Next Generation,3214,2365-09,Icarus Factor
+Next Generation,3215,2365-09,Pen Pals
+Next Generation,3216,2365-10,Q Who?
+Next Generation,3217,2365-10,Samaritan Snare
+Next Generation,3218,2365-10,Up the Long Ladder
+Next Generation,3219,2365-11,Manhunt
+Next Generation,3220,2365-11,Emissary
+Next Generation,3221,2365-12,Peak Performance
+Next Generation,3222,2365-12,Shades of Gray
+Next Generation,3302,2366-02,Evolution
+Next Generation,3301,2366-02,Ensigns of Command
+Next Generation,3303,2366-02,Survivors
+Next Generation,3304,2366-03,Who Watches the Watchers?
+Next Generation,3305,2366-03,Bonding
+Next Generation,3306,2366-03,Booby Trap
+Next Generation,3307,2366-05,Enemy
+Next Generation,3308,2366-05,Price
+Next Generation,3309,2366-06,Vengeance Factor
+Next Generation,3310,2366-06,Defector
+Next Generation,3311,2366-06,Hunted
+Next Generation,3312,2366-07,High Ground
+Next Generation,3313,2366-07,Deja Q
+Next Generation,3314,2366-08,Matter of Perspective
+Next Generation,3315,2366-08,Yesterday's Enterprise
+Next Generation,3316,2366-08,Offspring
+Next Generation,3317,2366-09,Sins of the Father
+Next Generation,3318,2366-09,Allegiance
+Next Generation,3319,2366-09,Captain's Holiday
+Next Generation,3320,2366-10,Tin Man
+Next Generation,3321,2366-10,Hollow Pursuits
+Next Generation,3322,2366-11,Most Toys
+Next Generation,3323,2366-12,Sarek
+Next Generation,3324,2366-12,Menage a Troi
+Next Generation,3325,2366-12,Transfigurations
+Next Generation,3326,2366-12,Best of Both Worlds Part I
+Next Generation,3401,2367-01,Best of Both Worlds Part II
+Next Generation,3404,2367-01,Family
+Next Generation,3403,2367-01,Brothers
+Next Generation,3402,2367-02,Suddenly Human
+Next Generation,3405,2367-02,Remember Me
+Next Generation,3406,2367-03,Legacy
+Next Generation,3407,2367-03,Reunion
+Next Generation,3408,2367-04,Future Imperfect
+Next Generation,3409,2367-04,Final Mission
+Next Generation,3410,2367-05,Loss
+Next Generation,3411,2367-05,Data's Day
+Next Generation,3412,2367-06,Wounded
+Next Generation,3413,2367-06,Devil's Due
+Next Generation,3414,2367-07,Clues
+Next Generation,3415,2367-07,First Contact
+Next Generation,3416,2367-08,Galaxy's Child
+Next Generation,3417,2367-08,Night Terrors
+Next Generation,3418,2367-08,Identity Crisis
+Next Generation,3419,2367-09,Nth Degree
+Next Generation,3420,2367-09,Qpid
+Next Generation,3421,2367-10,Drumhead
+Next Generation,3422,2367-10,Half a Life
+Next Generation,3423,2367-10,Host
+Next Generation,3424,2367-11,Mind's Eye
+Next Generation,3425,2367-12,In Theory
+Next Generation,3426,2367-12,Redemption Part I
+Next Generation,3501,2368-01,Redemption Part II
+Next Generation,3502,2368-01,Darmok
+Next Generation,3503,2368-01,Ensign Ro
+Next Generation,3504,2368-02,Silicon Avatar
+Next Generation,3505,2368-02,Disaster
+Next Generation,3506,2368-03,Game
+Next Generation,3507,2368-03,Unification Part I
+Next Generation,3508,2368-03,Unification Part II
+Next Generation,3509,2368-05,Matter of Time
+Next Generation,3510,2368-05,New Ground
+Next Generation,3511,2368-05,Hero Worship
+Next Generation,3512,2368-06,Violations
+Next Generation,3513,2368-06,Masterpiece Society
+Next Generation,3514,2368-06,Conundrum
+Next Generation,3515,2368-07,Power Play
+Next Generation,3516,2368-08,Ethics
+Next Generation,3517,2368-08,Outcast
+Next Generation,3518,2368-08,Cause and Effect
+Next Generation,3519,2368-09,First Duty
+Next Generation,3520,2368-09,Cost of Living
+Next Generation,3521,2368-10,Perfect Mate
+Next Generation,3522,2368-10,Imaginary Friend
+Next Generation,3523,2368-11,I Borg
+Next Generation,3524,2368-11,Next Phase
+Next Generation,3525,2368-12,Inner Light
+Next Generation,3526,2368-12,Time's Arrow Part I
+Next Generation,3601,2369-01,Time's Arrow Part II
+Next Generation,3602,2369-01,Realm of Fear
+Next Generation,3603,2369-01,Man of the People
+Next Generation,3604,2369-02,Relics
+Next Generation,3605,2369-02,Schisms
+Next Generation,3606,2369-03,True-Q
+Next Generation,3607,2369-03,Rascals
+Next Generation,3608,2369-04,Fistful of Datas
+Next Generation,3609,2369-04,Quality of Life
+Next Generation,3610,2369-05,Chain of Command Part I
+Next Generation,3611,2369-05,Chain of Command Part II
+Deep Space 9,4101,2369-05,Emissary Part I
+Deep Space 9,4102,2369-05,Emissary Part II
+Deep Space 9,4103,2369,Past Prologue
+Deep Space 9,4104,2369-06,Man Alone
+Next Generation,3612,2369-03,Ship in a Bottle
+Deep Space 9,4105,2369-06,Babel
+Next Generation,3613,2369-06,Aquiel
+Deep Space 9,4106,2369,Captive Pursuit
+Next Generation,3614,2369-07,Face of the Enemy
+Deep Space 9,4107,2369-07,Q-Less
+Next Generation,3615,2369-07,Tapestry
+Deep Space 9,4108,2369-11,Dax
+Next Generation,3616,2369-07,Birthright Part I
+Deep Space 9,4109,2369,Passenger
+Next Generation,3617,2369-10,Birthright Part II
+Deep Space 9,4110,2369,Move Along Home
+Deep Space 9,4111,2369,Nagus
+Next Generation,3618,2369-09,Starship Mine
+Next Generation,3619,2369-09,Lessons
+Deep Space 9,4112,2369-09,Vortex
+Next Generation,3620,2369-09,Chase
+Deep Space 9,4113,2369,Battle Lines
+Next Generation,3621,2369-10,Frame of Mind
+Deep Space 9,4114,2369-09,Storyteller
+Next Generation,3622,2369-10,Suspicions
+Deep Space 9,4115,2369-11,Progress
+Next Generation,3623,2369-11,Rightful Heir
+Deep Space 9,4116,2369-11,If Wishes Were Horses
+Next Generation,3624,2369-11,Second Chances
+Deep Space 9,4117,2369-12,Forsaken
+Deep Space 9,4118,2369-12,Dramatis Personae
+Next Generation,3625,2369-12,Timescape
+Deep Space 9,4119,2369-12,Duet
+Next Generation,3626,2369-12,Descent Part I
+Deep Space 9,4120,2369-12,In the Hands of the Prophets
+Next Generation,3701,2370-01,Descent Part II
+Next Generation,3702,2370,Liaisons
+Deep Space 9,4201,2370,Homecoming
+Next Generation,3703,2370-03,Interface
+Deep Space 9,4202,2370,Circle
+Next Generation,3704,2370-02,Gambit Part I
+Deep Space 9,4203,2370-02,Siege
+Next Generation,3705,2370-02,Gambit Part II
+Deep Space 9,4204,2370-03,Invasive Procedures
+Next Generation,3706,2370-03,Phantasms
+Deep Space 9,4205,2370-03,Cardassians
+Next Generation,3707,2370-04,Dark Page
+Deep Space 9,4206,2370-03,Melora
+Next Generation,3708,2370-04,Attached
+Deep Space 9,4207,2370-04,Rules of Acquisition
+Next Generation,3709,2370-04,Force of Nature
+Deep Space 9,4208,2370-04,Necessary Evil
+Next Generation,3710,2370-05,Inheritance
+Deep Space 9,4209,2370-04,Second Sight
+Next Generation,3711,2370-05,Parallels
+Deep Space 9,4210,2370-05,Sanctuary
+Deep Space 9,4211,2370,Rivals
+Next Generation,3712,2370-06,Pegasus
+Deep Space 9,4212,2370-05,Alternate
+Next Generation,3713,2370-06,Homeward
+Next Generation,3714,2370-06,Sub Rosa
+Deep Space 9,4213,2370,Armageddon Game
+Next Generation,3715,2370-07,Lower Decks
+Deep Space 9,4214,2370-07,Whispers
+Next Generation,3716,2370-08,Thine Own Self
+Deep Space 9,4215,2370-07,Paradise
+Next Generation,3717,2370-08,Masks
+Deep Space 9,4216,2370-08,Shadowplay
+Next Generation,3718,2370-08,Eye of the Beholder
+Deep Space 9,4217,2370-08,Playing God
+Next Generation,3719,2370-08,Genesis
+Deep Space 9,4218,2370,Profit and Loss
+Next Generation,3720,2370-10,Journey's End
+Deep Space 9,4219,2370-10,Blood Oath
+Next Generation,3721,2370-10,Firstborn
+Deep Space 9,4220,2370-10,Maquis Part I
+Next Generation,3722,2370-10,Bloodlines
+Deep Space 9,4221,2370,Maquis Part II
+Next Generation,3723,2370-11,Emergence
+Deep Space 9,4222,2370,Wire
+Next Generation,3724,2370-12,Preemptive Strike
+Deep Space 9,4223,2370-11,Crossover
+Next Generation,3725,2370-12,All Good Things...
+Deep Space 9,4224,2370-12,Collaborator
+Deep Space 9,4225,2370-12,Tribunal
+Deep Space 9,4226,2370-12,Jem'Hadar
+Deep Space 9,4301,2371-03,Search Part I
+Deep Space 9,4302,2371-03,Search Part II
+Deep Space 9,4303,2371,House of Quark
+Deep Space 9,4304,2371,Equilibrium
+Deep Space 9,4306,2371,Abandoned
+Deep Space 9,4305,2371,Second Skin
+Deep Space 9,4307,2371,Civil Defense
+Deep Space 9,4308,2371-06,Meridian
+Theatrical 7,M-07,2371-08,Star Trek: Generations
+Deep Space 9,4309,2371-06,Defiant
+Deep Space 9,4310,2371-06,Fascination
+Deep Space 9,4311,2371-06,Past Tense Part I
+Deep Space 9,4312,2371-06,Past Tense Part II
+Voyager,5101,2371-04,Caretaker Part I
+Voyager,5102,2371-04,Caretaker Part II
+Voyager,5103,2371-06,Parallax
+Voyager,5104,2371-06,Time and Again
+Deep Space 9,4313,2371-06,Life Support
+Voyager,5105,2371-07,Phage
+Deep Space 9,4314,2371-07,Heart of Stone
+Voyager,5106,2371-07,Cloud
+Deep Space 9,4315,2371-07,Destiny
+Voyager,5107,2371-07,Eye of the Needle
+Deep Space 9,4316,2371,Prophet Motive
+Voyager,5108,2371,Ex Post Facto
+Deep Space 9,4317,2371,Visionary
+Voyager,5109,2371-08,Emanations
+Voyager,5110,2371-08,Prime Factors
+Voyager,5111,2371-08,State of Flux
+Deep Space 9,4318,2371,Distant Voices
+Deep Space 9,4319,2371,Through the Looking Glass
+Voyager,5112,2371-09,Heroes and Demons
+Deep Space 9,4320,2371-09,Improbable Cause
+Voyager,5113,2371-09,Cathexis
+Deep Space 9,4321,2371,Die is Cast
+Voyager,5114,2371-10,Faces
+Deep Space 9,4322,2371-10,Explorers
+Voyager,5115,2371-10,Jetrel
+Deep Space 9,4323,2371,Family Business
+Voyager,5116,2371-11,Learning Curve
+Deep Space 9,4324,2371,Shakaar
+Deep Space 9,4325,2371,Facets
+Deep Space 9,4326,2371-12,Adversary
+Voyager,5204,2371-12,37's
+Voyager,5205,2372-01,Initiations
+Voyager,5201,2371-11,Projections
+Voyager,5202,2371-12,Elogium
+Voyager,5206,2372-01,Non Sequitur
+Deep Space 9,4401,2372-01,Way of the Warrior
+Voyager,5203,2372-01,Twisted
+Deep Space 9,4402,2372-01,Visitor
+Voyager,5207,2372-01,Parturition
+Deep Space 9,4403,2372-01,Hippocratic Oath
+Deep Space 9,4404,2372-02,Indiscretion
+Deep Space 9,4405,2372-03,Rejoined
+Voyager,5208,2372,Persistence of Vision
+Deep Space 9,4406,2372,Little Green Men
+Voyager,5209,2372,Tattoo
+Deep Space 9,4407,2372-04,Starship Down
+Voyager,5210,2372,Cold Fire
+Deep Space 9,4408,2372,Sword of Kahless
+Voyager,5211,2372-03,Maneuvers
+Voyager,5212,2372-03,Resistance
+Deep Space 9,4409,2372-03,Our Man Bashir
+Deep Space 9,4410,2372-03,Homefront
+Deep Space 9,4411,2372-06,Paradise Lost
+Voyager,5213,2372,Prototype
+Voyager,5215,2372-05,Alliances
+Deep Space 9,4412,2372-05,Crossfire
+Voyager,5216,2372-05,Threshold
+Deep Space 9,4413,2372,Return to Grace
+Voyager,5217,2372,Meld
+Deep Space 9,4414,2372-07,Sons of Mogh
+Voyager,5218,2372-06,Dreadnought
+Voyager,5214,2372-04,Death Wish
+Deep Space 9,4415,2372,Bar Association
+Deep Space 9,4416,2372,Accession
+Voyager,5220,2372-07,Lifesigns
+Voyager,5219,2372-06,Investigations
+Voyager,5221,2372-07,Deadlock
+Deep Space 9,4417,2372-07,Rules of Engagement
+Voyager,5222,2372-07,Innocence
+Deep Space 9,4418,2372-07,Hard Time
+Deep Space 9,4419,2372-07,Shattered Mirror
+Deep Space 9,4420,2372-07,Muse
+Voyager,5223,2372-07,Thaw
+Deep Space 9,4421,2372-07,For the Cause
+Voyager,5224,2372-07,Tuvix
+Deep Space 9,4423,2372,Quickening
+Voyager,5225,2372-08,Resolutions
+Deep Space 9,4422,2372-11,To the Death
+Deep Space 9,4424,2372,Body Parts
+Deep Space 9,4425,2372-12,Broken Link
+Voyager,5226,2373-01,Basics Part I
+Deep Space 9,4501,2373-01,Apocalypse Rising
+Voyager,5301,2373-01,Basics Part II
+Deep Space 9,4502,2373-01,Ship
+Voyager,5307,2373-01,Sacred Ground
+Deep Space 9,4503,2373-01,Looking for Par'Mach in..
+Voyager,5305,2373-01,False Profits
+Deep Space 9,4504,2373-02,Nor the Battle to the Strong
+Voyager,5302,2373-02,Flashback
+Deep Space 9,4505,2373-02,Assignment
+Voyager,5303,2373-02,Chute
+Deep Space 9,4506,2373,Trials and Tribble-ations
+Voyager,5306,2373-03,Remember
+Deep Space 9,4507,2373-03,Let He Who is Without Sin
+Voyager,5304,2373-04,Swarm
+Deep Space 9,4508,2373-04,Things Past
+Voyager,5308,2373-04,Future's End Part I
+Deep Space 9,4509,2373-04,Ascent
+Voyager,5309,2373-04,Future's End Part II
+Deep Space 9,4510,2373,Rapture
+Voyager,5310,2373-05,Warlord
+Voyager,5311,2373-05,Q and the Grey
+Deep Space 9,4511,2373-05,Darkness and the Light
+Voyager,5312,2373-06,Macrocosm
+Deep Space 9,4512,2373-06,Begotten
+Voyager,5313,2373-06,Fair Trade
+Voyager,5314,2373-06,Alter Ego
+Deep Space 9,4513,2373-06,For the Uniform
+Voyager,5315,2373-07,Coda
+Deep Space 9,4514,2373-07,In Purgatory's Shadow
+Voyager,5316,2373-07,Blood Fever
+Deep Space 9,4515,2373-07,By Inferno's Light
+Voyager,5317,2373-08,Unity
+Deep Space 9,4516,2373,Doctor Bashir I Presume
+Deep Space 9,4517,2373,Simple Investigation
+Deep Space 9,4518,2373,Business as Usual
+Voyager,5318,2373-09,Darkling
+Deep Space 9,4519,2373-09,Ties of Blood and Water
+Voyager,5319,2373-09,Rise
+Deep Space 9,4520,2373-09,Ferengi Love Songs
+Voyager,5320,2373-09,Favorite Son
+Deep Space 9,4521,2373,Soldiers of the Empire
+Voyager,5321,2373,Before and After
+Deep Space 9,4522,2373-10,Children of Time
+Voyager,5322,2373-11,Real Life
+Deep Space 9,4523,2373-11,Blaze of Glory
+Voyager,5323,2373-11,Distant Origin
+Theatrical 8,M-08,2373-11,Star Trek: First Contact
+Deep Space 9,4524,2373-11,Empok Nor
+Voyager,5324,2373-11,Displaced
+Deep Space 9,4525,2373-12,In the Cards
+Voyager,5325,2373-12,Worst Case Scenario
+Deep Space 9,4526,2373-12,Call to Arms
+Voyager,5326,2373-12,Scorpion Part I
+Voyager,5401,2374-01,Scorpion Part II
+Voyager,5402,2374-01,Gift
+Voyager,5403,2374-01,Day of Honor
+Voyager,5404,2374-01,Nemesis
+Deep Space 9,4601,2374,Time to Stand
+Voyager,5405,2374-03,Revulsion
+Deep Space 9,4602,2374-02,Rocks and Shoals
+Voyager,5406,2374-03,Raven
+Deep Space 9,4603,2374-02,Sons and Daughters
+Deep Space 9,4604,2374-02,Behind the Lines
+Deep Space 9,4605,2374,Favor the Bold
+Voyager,5407,2374-03,Scientific Method
+Deep Space 9,4606,2374,Sacrifice of Angels
+Voyager,5408,2374-04,Year of Hell Part I
+Deep Space 9,4607,2374-04,You Are Cordially Invited
+Voyager,5409,2374-06,Year of Hell Part II
+Deep Space 9,4608,2374,Resurrection
+Voyager,5410,2374-05,Random Thoughts
+Deep Space 9,4609,2374-05,Statistical Probabilities
+Voyager,5411,2374-05,Concerning Flight
+Voyager,5412,2374-06,Mortal Coil
+Deep Space 9,4610,2374,Magnificent Ferengi
+Deep Space 9,4611,2374-05,Waltz
+Voyager,5413,2374-06,Waking Moments
+Voyager,5414,2374,Message in a Bottle
+Deep Space 9,4612,2374,Who Mourns for Morn?
+Deep Space 9,4613,2374,Far Beyond the Stars
+Voyager,5415,2374-07,Hunters
+Deep Space 9,4614,2374-06,One Little Ship
+Voyager,5416,2374-08,Prey
+Deep Space 9,4615,2374,Honor Among Thieves
+Voyager,5417,2374-09,Retrospect
+Deep Space 9,4616,2374-08,Change of Heart
+Voyager,5418,2374-09,Killing Game Part I
+Voyager,5419,2374-09,Killing Game Part II
+Deep Space 9,4617,2374,Wrongs Darker Then Death or Night
+Deep Space 9,4618,2374,Inquisition
+Voyager,5420,2374-10,Vis a Vis
+Deep Space 9,4619,2374-09,In the Pale Moonlight
+Voyager,5421,2374-10,Omega Directive
+Deep Space 9,4620,2374-10,His Way
+Voyager,5422,2374-10,Unforgettable
+Deep Space 9,4621,2374-10,Reckoning
+Voyager,5423,2374-10,Living Witness
+Deep Space 9,4622,2374-10,Valiant
+Voyager,5424,2374,Demon
+Deep Space 9,4623,2374,Profit and Lace
+Voyager,5425,2374-12,One
+Deep Space 9,4624,2374-12,Time's Orphan
+Voyager,5426,2374-12,Hope and Fear
+Deep Space 9,4625,2374-12,Sound of Her Voice
+Deep Space 9,4626,2374-12,Tears of the Prophets
+Deep Space 9,4701,2375,Image in the Sand
+Deep Space 9,4702,2375-02,Shadows and Symbols
+Deep Space 9,4703,2375,Afterimage
+Voyager,5501,2375-01,Night
+Deep Space 9,4704,2375,Take Me Out to the Holosuite
+Voyager,5502,2375,Drone
+Deep Space 9,4705,2375,Chrysalis
+Voyager,5503,2375,Extreme Risk
+Deep Space 9,4706,2375,Treachery Faith and the Great River
+Voyager,5504,2375-02,In the Flesh
+Deep Space 9,4707,2375-02,Once More Unto the Breach
+Voyager,5505,2375-02,Once Upon a Time
+Deep Space 9,4708,2375-02,Siege of AR-558
+Voyager,5506,2375-02,Timeless
+Deep Space 9,4709,2375,Covenant
+Voyager,5507,2375-03,Infinite Regress
+Theatrical 9,M-09,2375,Star Trek: Insurrection
+Voyager,5508,2375-03,Nothing Human
+Voyager,5509,2375-03,Thirty Days
+Voyager,5510,2375,Counterpoint
+Deep Space 9,4710,2375,It's Only a Paper Moon
+Deep Space 9,4711,2375,Prodigal Daughter
+Voyager,5511,2375,Latent Image
+Voyager,5512,2375,Bride of Chaotica!
+Deep Space 9,4712,2375,Emperor's New Cloak
+Voyager,5513,2375-06,Gravity
+Deep Space 9,4713,2375,Field of Fire
+Voyager,5514,2375-07,Bliss
+Deep Space 9,4714,2375,Chimera
+Voyager,5515,2375-08,Dark Frontier Part I
+Voyager,5516,2375-08,Dark Frontier Part II
+Deep Space 9,4715,2375-08,Badda-Bing Badda-Bang
+Voyager,5517,2375-08,Disease
+Deep Space 9,4716,2375-08,Inter Arma Enim Silent Leges
+Voyager,5518,2375-08,Course: Oblivion
+Voyager,5519,2375-08,Fight
+Voyager,5520,2375-08,Think Tank
+Deep Space 9,4717,2375-07,Penumbra
+Deep Space 9,4718,2375-08,Til Death Us Do Part
+Deep Space 9,4719,2375-08,Strange Bedfellows
+Voyager,5521,2375-08,Juggernaut
+Deep Space 9,4720,2375-08,Changing Face of Evil
+Voyager,5522,2375-08,Someone to Watch Over Me
+Deep Space 9,4721,2375,When It Rains...
+Voyager,5523,2375-04,7 Jan 2013 11:59
+Deep Space 9,4722,2375,Tacking into the Wind
+Voyager,5524,2375-11,Relativity
+Deep Space 9,4723,2375-08,Extreme Measures
+Voyager,5525,2375,Warhead
+Deep Space 9,4724,2375,Dogs of War
+Voyager,5526,2375,Equinox Part I
+Deep Space 9,4725,2375,What You Leave Behind Part I
+Deep Space 9,4726,2375,What You Leave Behind Part II
+Voyager,5601,2376-01,Equinox Part II
+Voyager,5602,2376-01,Suvival Instinct
+Voyager,5603,2376,Barge of the Dead
+Voyager,5604,2376,Tinker Tenor Doctor Spy
+Voyager,5605,2376,Alice
+Voyager,5606,2376-04,Riddles
+Voyager,5607,2376-03,Dragon's Teeth
+Voyager,5608,2376-04,One Small Step
+Voyager,5609,2376-04,Voyager Conspiracy
+Voyager,5610,2376,Pathfinder
+Voyager,5611,2376,Fair Haven
+Voyager,5612,2376,Blink of an Eye
+Voyager,5613,2376-07,Virtuoso
+Voyager,5614,2376,Memorial
+Voyager,5615,2376-06,Tsunkatse
+Voyager,5616,2376,Collective
+Voyager,5617,2376,Spirit Folk
+Voyager,5618,2376-09,Ashes to Ashes
+Voyager,5619,2376,Child's Play
+Voyager,5620,2376-10,Good Shepherd
+Voyager,5621,2376-11,Live Fast and Prosper
+Voyager,5622,2376-11,Muse
+Voyager,5623,2376,Fury
+Voyager,5624,2376,Life Line
+Voyager,5625,2376,Haunting of Deck Twelve
+Voyager,5626,2376-12,Unimatrix Zero Part I
+Voyager,5701,2377-01,Unimartix Zero Part 2
+Voyager,5702,2377-02,Imperfection
+Voyager,5703,2377-01,Drive
+Voyager,5704,2377-01,Repression
+Voyager,5705,2377,Critical Care
+Voyager,5706,2377-03,Inside Man
+Voyager,5707,2377-03,Body and Soul
+Voyager,5708,2377-04,Nightingale
+Voyager,5709,2377,Flesh and Blood Part I
+Voyager,5710,2377-05,Flesh and Blood Part II
+Voyager,5711,2377,Shattered
+Voyager,5712,2377-06,Lineage
+Voyager,5713,2377,Repentance
+Voyager,5714,2377-07,Prophecy
+Voyager,5715,2377-07,Void
+Voyager,5716,2377-08,Workforce Part I
+Voyager,5717,2377-08,Workforce Part II
+Voyager,5718,2377,Human Error
+Voyager,5719,2377-09,Q2
+Voyager,5720,2377-09,Author Author
+Voyager,5721,2377-10,Friendship One
+Voyager,5722,2377-10,Natural Law
+Voyager,5723,2377-11,Homestead
+Voyager,5724,2377-11,Renaissance Man
+Voyager,5725,2377,Endgame Part I
+Voyager,5726,2377-12,Endgame Part II
+Theatrical 10,M-10,2379,Star Trek: Nemesis
+Theatrical 11,M-11,2233,Star Trek
+Theatrical 12,M-12,N/A,Star Trek Into Darkness
+Theatrical 13,M-13,2263.2,Star Trek Beyond
+Discovery,101,1207.3,The Vulcan Hello
+Discovery,102,1207.3,Battle at the Binary Stars
+Discovery,103,N/A,Context Is for Kings
+Discovery,104,N/A,The Butcher's Knife Cares Not for the Lamb's Cry
+Discovery,105,N/A,Choose Your Pain
+Discovery,106,N/A,Lethe
+Discovery,107,2136.8-2137.2,Magic to Make the Sanest Man Go Mad
+Discovery,108,1308.9,"Si Vis Pacem, Para Bellum"
+Discovery,109,N/A,Into the Forest I Go
+Discovery,110,N/A,Despite Yourself
+Discovery,111,N/A,The Wolf Inside
+Discovery,112,N/A,Vaulting Ambition
+Discovery,113,1834.2,What's Past Is Prologue
+Discovery,114,N/A,"The War Without, The War Within"
+Discovery,115,N/A,Will You Take My Hand?
