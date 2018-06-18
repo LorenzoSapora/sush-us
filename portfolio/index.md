@@ -11,5 +11,21 @@ keywords: "Development, Sush"
 
 #### Public projects ({{ public_counter }})
 
+<div class="boxes flex">
+	{% for project in site.data.projects_public %}
+	<a href="{{ project.web_url }}" class="box" target="_blank">
+		<div class="flex">
+			<div class="p-main">
+				<div class="p-box">{{ project.name }}</div>
+				<div class="p-desc">{{ project.description | truncate: 140 }}</div>
+				{% for lang in project.languages %}
+					<span class="{{ lang | downcase }}" style="border-radius:1em;display:inline-block;padding:0 8px;font-size:.6em">{{ lang }}</span>
+				{% endfor %}
+			</div>
+		</div>
+	</a>
+	{% endfor %}
+</div>
+
 #### Private projects ({{ private_counter }})
 
