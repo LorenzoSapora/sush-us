@@ -16,7 +16,7 @@ before_script:
 
 dev_test:
   stage: test
-  environment: Development
+  environment: dev
   only:
   - dev
   script:
@@ -25,11 +25,27 @@ dev_test:
 
 dev_deploy:
   stage: deploy
-  environment: Development
+  environment: dev
   only:
   - dev
   script:
   - ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
+
+prod_test:
+  stage: test
+  environment: prod
+  only:
+  - master
+  script:
+  - JEKYLL_ENV=prod bundle exec jekyll build --path vendor/bundle
+
+prod_deploy:
+  stage: deploy
+  environment: prod
+  only:
+  - master
+  script:
+  - ssh -t sush@dev.sush.us "cd $PROD_DIRECTORY;git pull;JEKYLL_ENV=prod jekyll build;"
 
 #deploy_development_test:
 #  stage: deploy
