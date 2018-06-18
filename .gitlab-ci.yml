@@ -14,7 +14,7 @@ before_script:
   - chmod 644 ~/.ssh/known_hosts
   - gem install bundler
 
-test_development:
+dev_test:
   stage: test
   environment: Development
   only:
@@ -23,7 +23,7 @@ test_development:
   - bundle install --path=vendor/
   - JEKYLL_ENV=dev bundle exec jekyll build
 
-deploy_development:
+dev_deploy:
   stage: deploy
   environment: Development
   only:
