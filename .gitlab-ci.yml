@@ -23,7 +23,7 @@ test_development:
     variables:
       - $CI_COMMIT_TAG == "skip-pipeline"
   script:
-  - JEKYLL_ENV=dev bundle exec jekyll build
+  - JEKYLL_ENV=dev bundle exec jekyll build --path vendor/bundle
 
 deploy_development:
   stage: deploy
