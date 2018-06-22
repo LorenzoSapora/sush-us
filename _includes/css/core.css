@@ -34,6 +34,7 @@ nav a:hover *{fill:#fff}
 #sub-title{font-size:1.2em;color:#828282;font-style:italic}
 #skype-icon path{fill:#00AFF0}
 #twitter-icon path{fill:#1DA1F2}
+.block-null{width:16px;height:16px;margin:1px;display:inline-block}
 .contact-icons{height:1em;position:relative;top:2px;padding-right:8px}
 .embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%}
 .embed-container object{position:absolute;top:0;left:0;width:100%;height:100%}
