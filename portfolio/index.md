@@ -29,5 +29,28 @@ With over **{{ public_counter | plus: private_counter }}** projects, over **{{ s
 	{% endfor %}
 </div>
 
+#### Global contribution graph
+<div class="flex">
+	<span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+</div>
+<div class="flex" style="height:133px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start">
+
+
+{% assign blocknull = "<div class='block-null'></div>" %}
+{% if firstday == "Tue" %}{{ blocknull }}
+{% elsif firstday == "Wed" %}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Thu" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Fri" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sat" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sun" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% else %}
+{% endif %}
+
+{% for contrib in site.data.datetest %}
+	<div style="width:15px;height:15px;margin:1px;border:1px solid #eee;display:inline-block;background-color:rgb({{contrib.rank}});font-size:9px;text-align:center" title="{{ contrib.actions }} contributions on {{ contrib.date }}"></div>
+{% endfor %}
+
+</div>
+
 #### Private projects ({{ private_counter }})
 
