@@ -12,7 +12,7 @@ keywords: "Lorenzo Sapora, contact, gpg, public key, email"
 
 <p>{% include assets/skype_contact.svg %} <a href="skype:{{ site.skype_username }}?chat" title="Skype">{{ site.skype_username }}</a></p>
 
-<p>{% include assets/gitlab2.svg %} <a href="https://git.knowbl.co/" title="Gitlab">Git versioning</a></p>
+<p>{% include assets/gitlab2.svg %} <a href="{{ site.url }}/git/" title="Gitlab">Git versioning</a></p>
 
 <p>{% include assets/gpg2.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="GPG Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
