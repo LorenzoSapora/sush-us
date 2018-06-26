@@ -8,6 +8,7 @@ keywords: "Development, Sush"
 
 Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date: '%Y' | minus:2005 }} years**, specialising in PHP (**Magento**, **Laravel**, **Wordpress**), and mobile applications (**iOS** and **Android**).
 
+#### Skills
 
 
 
