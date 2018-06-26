@@ -9,7 +9,7 @@ keywords: "Development, Sush"
 Git version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 <div class="boxes flex">
-	{% for git in site.data.git %}
+	{% for git in site.data.git.remotes %}
 		<a href="{{ git.url }}" target="_blank" class="box" style="text-align:center;width:calc(25% - 16px)">
 			<div>{{ git.name }}</div>
 			{% include assets/{{ git.logo }}.svg %}

@@ -1,4 +1,4 @@
-{% assign firstdate = site.data.gitcontributions | first %}
+{% assign firstdate = site.data.git.contributions | first %}
 {% assign firstday = firstdate.date | date: "%a" %}
 {% assign blocknull = "<div class='block-git'></div>" %}
 
@@ -16,7 +16,7 @@
 {% else %}
 {% endif %}
 
-{% for contrib in site.data.gitcontributions %}
+{% for contrib in site.data.git.contributions %}
 	<div class="block-git {{ contrib.rank }}" style="" title="{{ contrib.actions }} contributions on {{ contrib.date }}"></div>
 {% endfor %}
 </div>

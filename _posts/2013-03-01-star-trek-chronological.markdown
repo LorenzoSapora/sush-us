@@ -12,7 +12,7 @@ hattip:
 
 A complete list of all Star trek movies and TV shows in chronological order. For those times when you've got a few months of free time to spare.
 
-{% for startrek in site.data.startrek %}
+{% for startrek in site.data.posts.startrek %}
 {{ startrek.series }}|{{ startrek.id }}|{{ startrek.stardate }}|{{ startrek.title }}
 {% endfor %}
 
