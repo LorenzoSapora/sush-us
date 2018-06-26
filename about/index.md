@@ -10,9 +10,13 @@ Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date:
 
 #### Skills
 
+{% for language in site.data.languages %}
 
+##### {{ language.title }}
 
+{% for detail in language.languages %}<span class="{{ detail }} about-language">{{ detail | capitalize }} </span>{% endfor %}
 
+{% endfor %}
 
 
 
