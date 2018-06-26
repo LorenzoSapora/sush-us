@@ -1,6 +1,6 @@
 ---
 layout: log
-main-title: "Security.txt"
+main-title: "The 'Edit this page' button"
 sub-title: "TBC"
 subtitle: "TBC"
 description: TBC
@@ -11,4 +11,3 @@ bitcoin: ""
 hattip: 
 ---
 
-TBC

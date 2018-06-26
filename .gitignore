@@ -3,5 +3,6 @@ sush-us.sublime-project
 
 public
 vendor
+gitprojects
 .sass-cache/
 .jekyll-metadata
