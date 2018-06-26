@@ -14,6 +14,8 @@ Hey, I'm Lorenzo, a full stack web developer, and I build things with **Magento*
 
 I have lived in beautiful Cumbria for around {{ site.time | date: '%Y' | minus:2010 }} years now, and consider it my home. Although, I've lived in various locations across Italy, Germany, and the UK. I have worked on over **{{ public_counter | plus: private_counter }}** projects, over the span of **{{ site.time | date: '%Y' | minus:2005 }} years**, SOMETHING
 
+I’d love to chat with you about your plans and projects for the future, so please [get in touch]({{ site.url }}/contact/).
+
 #### Public projects ({{ public_counter }})
 
 <div class="boxes flex">
