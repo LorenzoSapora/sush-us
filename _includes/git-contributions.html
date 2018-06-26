@@ -1,0 +1,21 @@
+{% assign firstdate = site.data.datetest | first %}
+{% assign firstday = firstdate.date | date: "%a" %}
+{% assign blocknull = "<div class='block-git'></div>" %}
+
+<div class="flex">
+	<span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+</div>
+<div class="flex" style="height:133px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start">
+
+{% if firstday == "Tue" %}{{ blocknull }}
+{% elsif firstday == "Wed" %}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Thu" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Fri" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sat" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sun" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% else %}
+{% endif %}
+
+{% for contrib in site.data.datetest %}
+	<div class="block-git {{ contrib.rank }}" style="" title="{{ contrib.actions }} contributions on {{ contrib.date }}"></div>
+{% endfor %}
