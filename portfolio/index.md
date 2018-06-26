@@ -43,3 +43,5 @@ I’d love to chat with you about your plans and projects for the future, so ple
 	</a>
 	{% endfor %}
 </div>
+
+<small>Note: More information about [git versioning can be found here]({{ site.url }}/git/) </small>
