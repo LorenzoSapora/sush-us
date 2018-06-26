@@ -27,3 +27,5 @@ This is mostly a personal blog [https://sush.us/](https://sush.us/). Updated rar
 #### Misc
 
 I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
+
+Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt)
