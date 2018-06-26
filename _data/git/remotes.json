@@ -1,12 +1,7 @@
 [
 	{
-		"name":"Gitlab (personal)",
+		"name":"Gitlab (self hosted)",
 		"url":"https://git.knowbl.co/",
-		"logo":"gitlab"
-	},
-	{
-		"name":"Gitlab",
-		"url":"https://gitlab.com/LorenzoSapora",
 		"logo":"gitlab"
 	},
 	{
@@ -18,5 +13,11 @@
 		"name":"Bitbucket",
 		"url":"https://bitbucket.org/LorenzoSapora",
 		"logo":"bitbucket"
+	},
+	{
+		"name":"Gitlab",
+		"url":"https://gitlab.com/LorenzoSapora",
+		"logo":"gitlab"
 	}
+	
 ]

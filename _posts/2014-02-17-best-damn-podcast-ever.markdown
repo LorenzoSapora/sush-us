@@ -19,7 +19,7 @@ If you find a dead link, or want to request some content/information, please hea
 \- Blakedumb
 
 <ul>
-{%- for bdpe in site.data.bdpe -%}
+{%- for bdpe in site.data.posts.bdpe -%}
 	<li>
 		<a href="{{ bdpe.original_link }}">{{ bdpe.name }}</a>
 		<a href="{{ bdpe.archive_link }}">Mirror link</a> 
