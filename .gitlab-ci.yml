@@ -1,52 +1,52 @@
 image: ruby:2.3
 
 cache:
-  paths:
-  - vendor/
+	paths:
+	- vendor/
 
 before_script:
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - ssh-keyscan dev.sush.us >> ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
-  - gem install bundler
+	- 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+	- eval $(ssh-agent -s)
+	- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+	- mkdir -p ~/.ssh
+	- chmod 700 ~/.ssh
+	- ssh-keyscan dev.sush.us >> ~/.ssh/known_hosts
+	- chmod 644 ~/.ssh/known_hosts
+	- gem install bundler
 
 dev_test:
-  stage: test
-  environment: dev
-  only:
-  - dev
-  script:
-  - bundle install --path=vendor/
-  - JEKYLL_ENV=dev bundle exec jekyll build
+	stage: test
+	environment: dev
+	only:
+	- dev
+	script:
+	- bundle install --path=vendor/
+	- JEKYLL_ENV=dev bundle exec jekyll build
 
 dev_deploy:
-  stage: deploy
-  environment: dev
-  only:
-  - dev
-  script:
-  - ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
+	stage: deploy
+	environment: dev
+	only:
+	- dev
+	script:
+	- ssh -t sush@dev.sush.us "cd $DEV_DIRECTORY;git pull;JEKYLL_ENV=dev jekyll build;"
 
 prod_test:
-  stage: test
-  environment: prod
-  only:
-  - master
-  script:
-  - bundle install --path=vendor/
-  - JEKYLL_ENV=prod bundle exec jekyll build
+	stage: test
+	environment: prod
+	only:
+	- master
+	script:
+	- bundle install --path=vendor/
+	- JEKYLL_ENV=prod bundle exec jekyll build
 
 prod_deploy:
-  stage: deploy
-  environment: prod
-  only:
-  - master
-  script:
-  - ssh -t sush@dev.sush.us "cd $PROD_DIRECTORY;git pull;JEKYLL_ENV=prod jekyll build;"
+	stage: deploy
+	environment: prod
+	only:
+	- master
+	script:
+	- ssh -t sush@dev.sush.us "cd $PROD_DIRECTORY;git pull;JEKYLL_ENV=prod jekyll build;"
 
 #deploy_development_test:
 #  stage: deploy
