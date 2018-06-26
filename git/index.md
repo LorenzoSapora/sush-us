@@ -28,3 +28,5 @@ Total project count: **{{ public_counter | plus: private_counter }}** (public: {
 
 {% include git-contributions.html %}
 
+
+<small>Updated daily</small>
