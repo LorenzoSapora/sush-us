@@ -8,40 +8,17 @@ keywords: "Development, Sush"
 
 Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date: '%Y' | minus:2005 }} years**, specialising in PHP (**Magento**, **Laravel**, **Wordpress**), and mobile applications (**iOS** and **Android**).
 
-#### Who?
-
-Lorenzo. 6"1. Statistic nerd. Trumpeter. Bassist.
-
-#### What?
-
-Developer. Designer. Printer. Espionage. Archivist.
-
-#### Where?
-
-Cumbria. Umbria. Somerset.
 
 
-#### Null
-
-Ferment [DBaD](https://www.dbad-license.org/LICENSE.md) licence upholder.
 
 
-#### How?
 
-##### Frontend
 
-Python, Ruby, PHP, Vanilla javascript, Node.js, Typescript, HTML5/CSS
 
-##### Backend
 
-PHP, Node.js/Typescript, Python, Ruby, MySql, PostgreSQL, Redis, Nginx, ObjectiveC, Swift, 
 
-##### DevOps
 
-Debian/Windows Server, Nginx/Apache, Puppet, Ansible, Kubernetes, Docker, AWS, Travis, Bash
 
-PHP. Cocoa. Python. SQL. Ngnix. Apache. HTML. Bash. Lua. Go.
-Photoshop. Illustrator. InDesign. Quark. Flash(grudgingly).  Fireworks.
 
 #### About this site
 
