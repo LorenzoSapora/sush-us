@@ -20,7 +20,7 @@ I’d love to chat with you about your plans and projects for the future, so ple
 {% include assets/portfolio/caterite.svg %} {% include assets/portfolio/devon-cc.svg %} {% include assets/portfolio/detox.svg %} {% include assets/portfolio/version22.svg %}
 </div>
 <div class="flex margin-bottom portfolio-clients">
-{% include assets/portfolio/odell.svg %} {% include assets/portfolio/quickthinking.svg %} {% include assets/portfolio/gymshark.svg %} {% include assets/porfolio/unilever.svg %}
+{% include assets/portfolio/odell.svg %} {% include assets/portfolio/quickthinking.svg %} {% include assets/portfolio/gymshark.svg %} {% include assets/portfolio/unilever.svg %}
 </div>
 <div class="flex margin-bottom portfolio-clients">
 {% include assets/portfolio/yorkshirewater.svg %} {% include assets/portfolio/goodfood.svg %} {% include assets/portfolio/ttride.svg %} {% include assets/portfolio/goodness.svg %}
