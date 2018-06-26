@@ -2,8 +2,8 @@
 layout: page
 main-title: About The Experiment
 sub-title: We're in this together, right?
-description: "TBC"
 keywords: "Development, Sush"
+description: "About the person behind the Experiment"
 ---
 
 Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date: '%Y' | minus:2005 }} years**, specialising in PHP (**Magento**, **Laravel**, **Wordpress**), and mobile applications (**iOS** and **Android**).
