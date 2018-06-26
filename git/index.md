@@ -23,3 +23,8 @@ Total project count: **{{ public_counter | plus: private_counter }}** (public: {
 
 #### Why not just put everything on Github?
 
+
+#### Global contribution graph
+
+{% include git-contributions.html %}
+
