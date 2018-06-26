@@ -10,7 +10,7 @@ keywords: "Development, Sush"
 {% assign public_counter = 0 %}{% for project in site.data.tmp %}{% if project.visibility == "public" %}{% assign public_counter=public_counter | plus:1 %}{% endif %}{% endfor %}
 {% assign private_counter = 0 %}{% for project in site.data.tmp %}{% if project.visibility == "private" %}{% assign private_counter=private_counter | plus:1 %}{% endif %}{% endfor %}
 
-I have lived in beautiful Cumbria for around {{ site.time | date: '%Y' | minus:2010 }} years now, and consider it my home. Although, I've lived in various locations across Italy, Germany, and the UK. I have worked on over **{{ public_counter | plus: private_counter }}** projects, over the span of **{{ site.time | date: '%Y' | minus:2005 }} years**, SOMETHING
+I have lived in beautiful Cumbria for around {{ site.time | date: '%Y' | minus:2010 }} years now, and consider it my home. Although, I've lived in various locations across Italy, Germany, and the UK. I have worked on over **{{ public_counter | plus: private_counter }}** projects, over the span of **{{ site.time | date: '%Y' | minus:2005 }} years**, and have been using versioning for {{ site.time | date: '%Y' | minus:2011 }} years.
 
 I’d love to chat with you about your plans and projects for the future, so please [get in touch]({{ site.url }}/contact/).
 
