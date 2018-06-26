@@ -18,16 +18,15 @@ Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date:
 
 {% endfor %}
 
-
-
-
-
-
-
-
 #### About this site
 
-This is mostly a personal blog [https://sush.us/](https://sush.us/). Updated rarely.
+The "Experiment" is rather simple; use bleeding edge techniques to make the web faster, and safer. On this site, I use no Javascript, no server-side processing, and every page must be delivered in the smallest form possible.
+
+
+
+
+
+
 #### Misc
 
 I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
