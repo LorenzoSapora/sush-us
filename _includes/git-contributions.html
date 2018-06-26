@@ -5,7 +5,7 @@
 <div class="flex">
 	<span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
 </div>
-<div class="flex" style="height:133px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start">
+<div class="flex contributions-box">
 
 {% if firstday == "Tue" %}{{ blocknull }}
 {% elsif firstday == "Wed" %}{{ blocknull }}{{ blocknull }}
@@ -17,6 +17,6 @@
 {% endif %}
 
 {% for contrib in site.data.git.contributions %}
-	<div class="block-git {{ contrib.rank }}" style="" title="{{ contrib.actions }} contributions on {{ contrib.date }}"></div>
+	<div class="block-git {{ contrib.rank }}" title="{{ contrib.actions }} contributions on {{ contrib.date }}"></div>
 {% endfor %}
 </div>

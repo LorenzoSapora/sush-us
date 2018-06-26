@@ -34,6 +34,8 @@ nav a:hover *{fill:#fff}
 #sub-title{font-size:1.2em;color:#828282;font-style:italic}
 #skype-icon path{fill:#00AFF0}
 #twitter-icon path{fill:#1DA1F2}
+#nav-box{background:#6F5499;width:100%}
+#nav-links{float:right;height:15px}
 .block-git{width:15px;height:15px;margin:1px;display:inline-block}
 .portfolio-client{height:100px;max-width:150px}
 .portfolio-client:hover{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
