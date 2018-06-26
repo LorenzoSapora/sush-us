@@ -24,5 +24,6 @@ Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date:
 #### About this site
 
 This is mostly a personal blog [https://sush.us/](https://sush.us/). Updated rarely.
+#### Misc
 
 I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
