@@ -16,6 +16,18 @@ I have lived in beautiful Cumbria for around {{ site.time | date: '%Y' | minus:2
 
 I’d love to chat with you about your plans and projects for the future, so please [get in touch]({{ site.url }}/contact/).
 
+#### Privilege to work with:
+
+<div class="flex margin-bottom portfolio-clients" style="justify-content:space-around">
+{% include assets/caterite_portfolio.svg %} {% include assets/devon-cc_portfolio.svg %} {% include assets/detox_portfolio.svg %} {% include assets/version22_portfolio.svg %}
+</div>
+<div class="flex margin-bottom portfolio-clients" style="justify-content:space-around">
+{% include assets/odell_portfolio2.svg %} {% include assets/quickthinking_portfolio.svg %} {% include assets/gymshark_portfolio.svg %} {% include assets/unilever.svg %}
+</div>
+<div class="flex margin-bottom portfolio-clients" style="justify-content:space-around">
+{% include assets/yorkshirewater_portfolio2.svg %} {% include assets/goodfood_portfolio.svg %} {% include assets/ttride_portfolio.svg %} {% include assets/goodness_portfolio.svg %}
+</div>
+
 #### Public projects ({{ public_counter }})
 
 <div class="boxes flex">
