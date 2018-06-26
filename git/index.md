@@ -10,7 +10,7 @@ Git version control is a system that records changes to a file or set of files o
 
 <div class="boxes flex">
 	{% for git in site.data.git.remotes %}
-		<a href="{{ git.url }}" target="_blank" class="box" style="text-align:center;width:calc(25% - 16px)">
+		<a href="{{ git.url }}" target="_blank" class="box git-link">
 			<div>{{ git.name }}</div>
 			{% include assets/{{ git.logo }}.svg %}
 		</a>

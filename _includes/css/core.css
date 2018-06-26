@@ -34,12 +34,16 @@ nav a:hover *{fill:#fff}
 #sub-title{font-size:1.2em;color:#828282;font-style:italic}
 #skype-icon path{fill:#00AFF0}
 #twitter-icon path{fill:#1DA1F2}
+#nav-box{background:#6F5499;width:100%}
+#nav-links{float:right;height:15px}
 .block-git{width:15px;height:15px;margin:1px;display:inline-block}
+.portfolio-clients{justify-content:space-around}
 .portfolio-client{height:100px;max-width:150px}
 .portfolio-client:hover{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
 .bottom-margin{margin-bottom:16px}
 .contact-icons{height:1em;position:relative;top:2px;padding-right:8px}
-.about-language{border-radius:1em;display:inline-block;padding:0 8px;margin-right:8px;font-size:.8em}
+.about-language,.portfolio-language{border-radius:1em;display:inline-block;padding:0 8px;margin-right:8px}
+.about-language{font-size:.8em}
 .git0{background:rgb(237,237,237)}
 .git1{background:rgb(172,213,242)}
 .git2{background:rgb(127,168,201)}
