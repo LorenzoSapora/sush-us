@@ -15,7 +15,7 @@ With over **{{ public_counter | plus: private_counter }}** projects, over **{{ s
 #### Public projects ({{ public_counter }})
 
 <div class="boxes flex">
-	{% for project in site.data.projects_public %}
+	{% for project in site.data.public %}
 	<a href="{{ project.web_url }}" class="box" target="_blank">
 		<div class="flex">
 			<div class="p-main">
