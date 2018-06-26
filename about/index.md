@@ -22,7 +22,9 @@ Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date:
 
 The "Experiment" is rather simple; use bleeding edge techniques to make the web faster, and safer. On this site, I use no Javascript, no server-side processing, and every page must be delivered in the smallest form possible.
 
+##### Why no javascript?
 
+There's nothing wrong with Javascript, but more often than not, it's a lazy excuse to just copy paste some bloated code, plus a library, for some effect that can be rendered using CSS.
 
 
 
