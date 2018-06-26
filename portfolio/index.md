@@ -29,6 +29,3 @@ With over **{{ public_counter | plus: private_counter }}** projects, over **{{ s
 	</a>
 	{% endfor %}
 </div>
-
-#### Private projects ({{ private_counter }})
-
