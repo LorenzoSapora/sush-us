@@ -36,6 +36,7 @@ nav a:hover *{fill:#fff}
 #twitter-icon path{fill:#1DA1F2}
 .block-null{width:16px;height:16px;margin:1px;display:inline-block}
 .portfolio-clients{height:100px;max-width:150px}
+.portfolio-client:hover{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
 .bottom-margin{margin-bottom:16px}
 .contact-icons{height:1em;position:relative;top:2px;padding-right:8px}
 .git0{background:rgb(237,237,237)}
