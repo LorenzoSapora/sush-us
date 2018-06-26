@@ -25,6 +25,8 @@ Total project count: **{{ counter }}** (public: {{ public_counter }}, private: {
 
 #### Why not just put everything on Github?
 
+Github is an excellent collection of open source ideas, projects, and snippets (gists). But, versioning isn't meant to be centralised in one location, so that's why I mirror my public projects in as many locations as possible.
+
 
 #### Global contribution graph
 
