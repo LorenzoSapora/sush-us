@@ -6,7 +6,7 @@ description: "TBC"
 keywords: "Development, Sush"
 ---
 
-Hi, I'm Lorenzo Sapora, a **Software Developer**, for over **{{ site.time | date: '%Y' | minus:2005 }} years**, starting an internship at a design studio, as a developer. I have been employed by several wonderful companies my entire working life.
+Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date: '%Y' | minus:2005 }} years**, specialising in PHP (**Magento**, **Laravel**, **Wordpress**), and mobile applications (**iOS** and **Android**).
 
 #### Who?
 
