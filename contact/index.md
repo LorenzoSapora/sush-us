@@ -6,7 +6,7 @@ description: "TBC"
 keywords: "Lorenzo Sapora, contact, gpg, public key, email"
 ---
 
-Found a bug? An interesting project? Or just want to chat, let's chat!
+Found a bug? Have an interesting project? Or just want to chat, let's do it!
 
 #### Best way to contact me
 
