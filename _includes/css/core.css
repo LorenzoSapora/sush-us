@@ -40,8 +40,7 @@ nav a:hover *{fill:#fff}
 .portfolio-client:hover{background:none;box-shadow:0 0 10px 0 rgba(0,0,0,.18)}
 .bottom-margin{margin-bottom:16px}
 .contact-icons{height:1em;position:relative;top:2px;padding-right:8px}
-.about-language,.portfolio-language{border-radius:1em;display:inline-block;padding:0 8px;margin-right:8px}
-.about-language{font-size:.8em}
+.about-language,.portfolio-language{border-radius:1em;display:inline-block;padding:0 8px;margin-right:8px;font-size:.8em}
 .git0{background:#E3DDED}
 .git1{background:#9583B5}
 .git2{background:#4E347A}
