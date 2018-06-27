@@ -36,7 +36,7 @@ I’d love to chat with you about your plans and projects for the future, so ple
 				<div class="p-box">{{ project.name }}</div>
 				<div class="p-desc">{{ project.description | truncate: 140 }}</div>
 				{% for lang in project.languages %}
-					<span class="{{ lang | downcase }}" style="border-radius:1em;display:inline-block;padding:0 8px;font-size:.6em">{{ lang }}</span>
+					<span class="{{ lang | downcase }} portfolio-language">{{ lang }}</span>
 				{% endfor %}
 			</div>
 		</div>
