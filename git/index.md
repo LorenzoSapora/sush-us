@@ -32,6 +32,3 @@ Github is an excellent collection of open source ideas, projects, and snippets (
 #### Global contribution graph
 
 {% include git-contributions.html %}
-
-
-<small>Updated daily</small>
