@@ -36,4 +36,4 @@ All this could have been avoided by learning some very simple HTML, and using so
 
 I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
 
-Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt)
+Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt "security.txt")
