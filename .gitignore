@@ -8,6 +8,7 @@ _data/gitlab.sh
 public
 vendor
 _data/config/*
+_data/archive/*
 _data/tmp/*
 .sass-cache/
 .jekyll-metadata
