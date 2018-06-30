@@ -1,3 +1,7 @@
+#bbg1{stop-color:#0052CC}
+#bbg0{stop-color:#2684FF;stop-opacity:0}
+#gf0{stop-color:#C71482}
+#gf1{stop-color:#33338D}
 .development-flag{width:100%;background:rgba(111,84,153,.4);text-align:center}
 .contributions-box{height:133px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start}
 .git-link{text-align:center;width:calc(25% - 16px)}

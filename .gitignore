@@ -1,8 +1,14 @@
+## Local
 sush-us.sublime-workspace
 sush-us.sublime-project
+_data/git/all.json
+_data/gitlab.sh
 
+## General
 public
 vendor
-gitprojects
+_data/config/*
+_data/archive/*
+_data/tmp/*
 .sass-cache/
 .jekyll-metadata

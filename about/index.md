@@ -10,11 +10,11 @@ Hi, I'm Lorenzo Sapora, a **Software Developer** for over **{{ site.time | date:
 
 #### Skills
 
-{% for language in site.data.languages %}
+{% for skill in site.data.about.skills %}
 
-##### {{ language.title }}
+##### {{ skill.title }}
 
-{% for detail in language.languages %}<span class="{{ detail }} about-language">{{ detail | capitalize }} </span>{% endfor %}
+{% for detail in skill.languages %}<span class="{{ detail }} about-language">{{ detail | capitalize }} </span>{% endfor %}
 
 {% endfor %}
 
@@ -36,4 +36,4 @@ All this could have been avoided by learning some very simple HTML, and using so
 
 I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
 
-Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt)
+Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt "security.txt")
