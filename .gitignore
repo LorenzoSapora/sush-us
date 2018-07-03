@@ -7,6 +7,7 @@ _data/gitlab.sh
 ## General
 public
 vendor
+_data/git/*
 _data/config/*
 _data/archive/*
 _data/tmp/*
