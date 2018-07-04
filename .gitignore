@@ -8,6 +8,7 @@ _data/gitlab.sh
 public
 vendor
 _data/git/*
+_data/git/public-featured.json
 _data/config/*
 _data/archive/*
 _data/tmp/*
