@@ -3,7 +3,7 @@ layout: page
 main-title: Contact The Experiment
 sub-title: What, why, where and how?
 description: "TBC"
-keywords: "Lorenzo Sapora, contact, gpg, public key, email"
+keywords: "Lorenzo Sapora, contact, gpg, pgp, public key, email, twitter, skype, gitlab, git, sudosushi"
 ---
 
 Found a bug? Have an interesting project? Or just want to chat, let's do it!
