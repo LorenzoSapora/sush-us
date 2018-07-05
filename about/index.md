@@ -24,7 +24,7 @@ The "Experiment" is rather simple; use bleeding edge techniques to make the web 
 
 ##### Why no javascript?
 
-There's nothing wrong with Javascript, but more often than not, it's a lazy excuse to just copy paste some bloated code, plus a library, for some effect that can be rendered using CSS.
+There's nothing wrong with Javascript, but more often than not it's a lazy excuse to just copy paste some bloated code, plus a library, for some effect that can be rendered using CSS.
 
 ##### No PHP? But you're a PHP developer..
 
