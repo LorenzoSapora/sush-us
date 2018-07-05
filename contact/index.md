@@ -2,7 +2,7 @@
 layout: page
 main-title: Contact The Experiment
 sub-title: What, why, where and how?
-description: "TBC"
+description: "I am usually pretty easy to get hold of, here is how I use different channels to communicate with people and how best to contact me"
 keywords: "Lorenzo Sapora, contact, gpg, pgp, public key, email, twitter, skype, gitlab, git, sudosushi"
 ---
 
