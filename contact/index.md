@@ -2,8 +2,8 @@
 layout: page
 main-title: Contact The Experiment
 sub-title: What, why, where and how?
-description: "TBC"
-keywords: "Lorenzo Sapora, contact, gpg, public key, email"
+description: "I am usually pretty easy to get hold of, here is how I use different channels to communicate with people and how best to contact me"
+keywords: "Lorenzo Sapora, contact, gpg, pgp, public key, email, twitter, skype, gitlab, git, sudosushi"
 ---
 
 Found a bug? Have an interesting project? Or just want to chat, let's do it!
@@ -16,7 +16,6 @@ Found a bug? Have an interesting project? Or just want to chat, let's do it!
 
 <p>{% include assets/contact/gitlab.svg %} <a href="{{ site.url }}/git/" title="Gitlab">Git versioning</a></p>
 
-<p>{% include assets/contact/gpg.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="GPG Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>{% include assets/contact/gpg.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="PGP Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
 <p>{% include assets/contact/fingerprint.svg %} <code>{{ site.gpg_fingerprint }}</code></p>
-

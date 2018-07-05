@@ -3,10 +3,8 @@ layout: page
 main-title: Project versioning
 sub-title: Yes
 description: "TBC"
-keywords: "Development, Sush"
+keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
-
-Git version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 <div class="boxes flex">
 	{% for git in site.data.git.remotes %}
@@ -16,6 +14,10 @@ Git version control is a system that records changes to a file or set of files o
 		</a>
 	{% endfor %}
 </div>
+
+#### What is git?
+
+Git version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 {% assign counter = 0 %}{% for project in site.data.git.all %}{% assign counter=counter | plus:1 %}{% endfor %}
 {% assign public_counter = 0 %}{% for project in site.data.git.all %}{% if project.visibility == "public" %}{% assign public_counter=public_counter | plus:1 %}{% endif %}{% endfor %}
