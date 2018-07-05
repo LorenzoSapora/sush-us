@@ -29,7 +29,7 @@ I’d love to chat with you about your plans and projects for the future, so ple
 #### Public projects ({{ public_counter }})
 
 <div class="boxes flex">
-	{% for project in site.data.git.public-featured %}
+	{% for project in site.data.git.public-featured reversed %}
 	<a href="{{ project.web_url }}" class="box" target="_blank">
 		<div class="flex">
 			<div class="p-main">
