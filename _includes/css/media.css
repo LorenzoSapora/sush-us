@@ -3,6 +3,7 @@
 }
 @media (max-width:590px){
   nav div{display:none}
+  .box{width:100%}
 }
 @media (max-width:490px){
 	nav{display:flex;justify-content:space-around;padding:0}
