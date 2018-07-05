@@ -14,7 +14,7 @@ I have lived in beautiful Cumbria for around {{ site.time | date: '%Y' | minus:2
 
 I’d love to chat with you about your plans and projects for the future, so please [get in touch]({{ site.url }}/contact/).
 
-#### Privilege to work with:
+#### Over the years I have produced work for a diverse range of organisations.
 
 <div class="flex margin-bottom portfolio-clients">
 {% include assets/portfolio/caterite.svg %} {% include assets/portfolio/devon-cc.svg %} {% include assets/portfolio/detox.svg %} {% include assets/portfolio/version22.svg %}
@@ -29,7 +29,7 @@ I’d love to chat with you about your plans and projects for the future, so ple
 #### Public projects ({{ public_counter }})
 
 <div class="boxes flex">
-	{% for project in site.data.git.public-featured %}
+	{% for project in site.data.git.public-featured reversed %}
 	<a href="{{ project.web_url }}" class="box" target="_blank">
 		<div class="flex">
 			<div class="p-main">
