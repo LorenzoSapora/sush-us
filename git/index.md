@@ -3,7 +3,7 @@ layout: page
 main-title: Project versioning
 sub-title: Yes
 description: "TBC"
-keywords: "Development, Sush"
+keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
 <div class="boxes flex">
