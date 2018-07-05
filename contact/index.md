@@ -16,7 +16,7 @@ Found a bug? Have an interesting project? Or just want to chat, let's do it!
 
 <p>{% include assets/contact/gitlab.svg %} <a href="{{ site.url }}/git/" title="Gitlab">Git versioning</a></p>
 
-<p>{% include assets/contact/gpg.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="GPG Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>{% include assets/contact/gpg.svg %} <a href="{{ site.url }}{{ site.gpg_publickey }}" title="PGP Public key">Public key</a> for <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
 <p>{% include assets/contact/fingerprint.svg %} <code>{{ site.gpg_fingerprint }}</code></p>
 
