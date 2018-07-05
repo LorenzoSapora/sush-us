@@ -10,6 +10,8 @@
 	nav a{font-size:1em;margin:0;text-align:center;padding:8px}
 	#title{line-height:1.3}
 	.entry-date{display:block}
+	.portfolio-client{width:100%;max-width:100%}
+	.flex.portfolio-clients{display:block}
 }
 @media (prefers-dark-interface){
 	html{background:#22262b;color:#fff}
