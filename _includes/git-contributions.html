@@ -8,12 +8,13 @@
 <div class="flex contributions-box">
 <div class="contribution-days"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
 
-{% if firstday == "Tue" %}{{ blocknull }}
-{% elsif firstday == "Wed" %}{{ blocknull }}{{ blocknull }}
-{% elsif firstday == "Thu" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}
-{% elsif firstday == "Fri" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
-{% elsif firstday == "Sat" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
-{% elsif firstday == "Sun" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% if firstday == "Mon" %}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Tue" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Wed" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Thu" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Fri" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sat" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
+{% elsif firstday == "Sun" %}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}{{ blocknull }}
 {% else %}
 {% endif %}
 
