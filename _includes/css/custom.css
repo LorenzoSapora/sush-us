@@ -3,5 +3,8 @@
 #gf0{stop-color:#C71482}
 #gf1{stop-color:#33338D}
 .development-flag{width:100%;background:rgba(111,84,153,.4);text-align:center}
-.contributions-box{height:133px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start}
+.contributions-box{height:98px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start}
+.contribution-months{margin-left:23px}
+.contribution-days{width:23px;height:100%;display:block;font-size:.6em}
+.contribution-days span{display:block;width:13px;height:13px;margin-bottom:1px}
 .git-link{text-align:center;width:calc(25% - 16px)}
