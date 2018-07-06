@@ -4,4 +4,5 @@
 #gf1{stop-color:#33338D}
 .development-flag{width:100%;background:rgba(111,84,153,.4);text-align:center}
 .contributions-box{height:98px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start}
+.contribution-months{margin-left:23px}
 .git-link{text-align:center;width:calc(25% - 16px)}
