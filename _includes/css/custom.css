@@ -5,4 +5,6 @@
 .development-flag{width:100%;background:rgba(111,84,153,.4);text-align:center}
 .contributions-box{height:98px;flex-direction:column;flex-wrap:wrap;justify-content:flex-start}
 .contribution-months{margin-left:23px}
+.contribution-days{width:23px;height:100%;display:block;font-size:.6em}
+.contribution-days span{display:block;width:13px;height:13px;margin-bottom:1px}
 .git-link{text-align:center;width:calc(25% - 16px)}
