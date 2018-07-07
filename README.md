@@ -28,6 +28,6 @@ If you have an issue, or want to contribute, please use [gitlab.com](https://git
 
 ## Canonical source
 
-[![Personal mirror](.gitmirror/canonical.svg)](https://git.knowbl.co/web/sush/sush-us) [![Bitbucket mirror](.gitmirror/bitbucket.svg)](https://bitbucket.org/lorenzosapora/sush-us/src/master/) [![Gitlab mirror](.gitmirror/gitlab.svg)](https://gitlab.com/LorenzoSapora/sush-us) [![Github mirror](.gitmirror/github.svg)](https://github.com/lorenzosapora/sush-us)
+[![Personal mirror](.gitmirror/canonical.svg)](https://git.knowbl.co/web/sush/sush-us) [![Bitbucket mirror](https://img.shields.io/badge/mirror-BitBucket-2684ff.svg)](https://bitbucket.org/lorenzosapora/sush-us/src/master/) [![Gitlab mirror](https://img.shields.io/badge/mirror-Gitlab-E04432.svg)](https://gitlab.com/LorenzoSapora/sush-us) [![Github mirror](https://img.shields.io/badge/mirror-Github-000000.svg)](https://github.com/lorenzosapora/sush-us)
 
 The canonical source of [https://sush.us](https://sush.us) is hosted on [https://git.knowbl.co/dev/sush/sush-us/](https://git.knowbl.co/dev/sush/sush-us/).
