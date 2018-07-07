@@ -1,6 +1,6 @@
 # Sush.us
 
-[![master status](https://git.knowbl.co/web/sush/sush-us/badges/master/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/master) [![dev status](https://git.knowbl.co/web/sush/sush-us/badges/dev/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/dev) [![Bitbucket mirror](https://img.shields.io/badge/mirror-BitBucket-2684ff.svg)](https://bitbucket.org/lorenzosapora/sush-us/src/master/)
+[![master status](https://git.knowbl.co/web/sush/sush-us/badges/master/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/master) [![dev status](https://git.knowbl.co/web/sush/sush-us/badges/dev/pipeline.svg)](https://git.knowbl.co/web/sush/sush-us/commits/dev) [![Personal mirror](https://img.shields.io/badge/mirror-Gitlab-E04432.svg)](https://git.knowbl.co/web/sush/sush-us) [![Bitbucket mirror](https://img.shields.io/badge/mirror-BitBucket-2684ff.svg)](https://bitbucket.org/lorenzosapora/sush-us/src/master/) [![Gitlab mirror](https://img.shields.io/badge/mirror-Gitlab-E04432.svg)](https://gitlab.com/LorenzoSapora/sush-us)
 
 Personal blog [https://sush.us/](https://sush.us/). Updated rarely.
 
