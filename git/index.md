@@ -15,16 +15,15 @@ keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contributi
 	{% endfor %}
 </div>
 
-#### What is git?
-
-Git version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
-
 {% assign counter = 0 %}{% for project in site.data.git.all %}{% assign counter=counter | plus:1 %}{% endfor %}
 {% assign public_counter = 0 %}{% for project in site.data.git.all %}{% if project.visibility == "public" %}{% assign public_counter=public_counter | plus:1 %}{% endif %}{% endfor %}
 {% assign private_counter = 0 %}{% for project in site.data.git.all %}{% if project.visibility == "private" %}{% assign private_counter=private_counter | plus:1 %}{% endif %}{% endfor %}
 
 Total project count: **{{ counter }}** (public: {{ public_counter }}, private: {{ private_counter }})
 
+#### What is git?
+
+Git version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 
 #### Why not just put everything on Github?
 
