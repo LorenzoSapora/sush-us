@@ -19,7 +19,7 @@ keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contributi
 {% assign public_counter = 0 %}{% for project in site.data.git.all %}{% if project.visibility == "public" %}{% assign public_counter=public_counter | plus:1 %}{% endif %}{% endfor %}
 {% assign private_counter = 0 %}{% for project in site.data.git.all %}{% if project.visibility == "private" %}{% assign private_counter=private_counter | plus:1 %}{% endif %}{% endfor %}
 
-Total project count: **{{ counter }}** (public: {{ public_counter }}, private: {{ private_counter }})
+Total unique project count: **{{ counter }}** (public: {{ public_counter }}, private: {{ private_counter }})
 
 #### What is git?
 
