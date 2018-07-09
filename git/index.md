@@ -2,7 +2,7 @@
 layout: page
 main-title: Project versioning
 sub-title: Yes
-description: "TBC"
+description: "Location of all git repositories"
 keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
