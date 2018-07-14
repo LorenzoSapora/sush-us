@@ -2,8 +2,8 @@
 layout: page
 main-title: Showcase The Experiment
 sub-title: Show and tell
-description: "TBC"
 keywords: "Development, Sush"
+description: "Portfolio for Lorenzo Sapora. View public projects, and the global contribution graph."
 ---
 
 {% assign counter = 0 %}{% for project in site.data.git.all %}{% assign counter=counter | plus:1 %}{% endfor %}
