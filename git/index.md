@@ -6,6 +6,8 @@ description: "Location of all git repositories"
 keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
+Here's my current list of git mirrors.
+
 <div class="boxes flex">
 	{% for git in site.data.git.remotes %}
 		<a href="{{ git.url }}" target="_blank" class="box git-link">
