@@ -4,5 +4,5 @@ Contact: https://sush.us/contact
 Encryption: https://sush.us/public.key
 
 # Mirror
-Contact: https://hackerone.com/lorenzo_sapora
+Contact: https://keybase.io/sudos
 Encryption: https://keybase.io/sudos
