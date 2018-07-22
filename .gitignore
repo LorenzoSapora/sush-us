@@ -1,14 +1,12 @@
 ## Local
 sush-us.sublime-workspace
 sush-us.sublime-project
-_data/git/all.json
 _data/gitlab.sh
 
 ## General
 public
 vendor
 _data/git/*
-_data/git/public-featured.json
 _data/config/*
 _data/archive/*
 _data/tmp/*
