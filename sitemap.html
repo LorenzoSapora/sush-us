@@ -6,9 +6,6 @@ description: "Location of all git repositories"
 keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
-{% for post in site.posts %}
-- {{ site.url }}{{ post.url }}{% if post.lastmod == null %} {{ post.date | date_to_xmlschema }}{% else %}{{ post.lastmod | date_to_xmlschema }}{% endif %}
-{% endfor %}
 
 {% for page in site.pages %}
 {% if page.sitemap != null and page.sitemap != empty %}
@@ -21,3 +18,6 @@ keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contributi
 {% endif %}
 {% endfor %}
 </urlset>
+{% for post in site.posts %}
+<p><a href="{{ site.url }}{{ post.url }}">{{ site.url }}{{ post.url }}</a></p>
+{% endfor %}
