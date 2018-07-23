@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <style>{%include css/core.css %}</style>
   <meta name="author" content="{{ site.author }}">
   <meta name="description" content="{{ page.description }}">
@@ -13,6 +14,11 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="google-site-verification" content="Lw3aGmaqhe2mMpxXk0cUF3AV6IVjvk_93GhPbKGYaR0" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ site.author }}" />
+  <meta name="twitter:description" content="{{ page.description }}" />
+  <meta name="twitter:url" content="{{ site.url }}" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   {% include canonical.html %}
   <link href="data:image/gif;base64,R0lGODdhFAAUAPAAAG9VmwAAACwAAAAAFAAUAEACEYSPqcvtD6OctNqLs968+68VADs=" rel="icon" type="image/x-icon" />
   <link href="/favicon.png" rel="icon" type="image/x-icon" />
