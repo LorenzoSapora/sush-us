@@ -32,6 +32,6 @@ The simple path would be to create a theme, and bash it onto a CMS. But with tha
 
 #### Misc
 
-I can offer you an [html sitemap](/sitemap.html), or perhaps you would prefer an [xml sitemap](/sitemap.xml) instead?
+I can offer you an [html sitemap]({{ site.url }}/sitemap/), or perhaps you would prefer an [xml sitemap]({{ site.url }}/sitemap.xml) instead?
 
 Found an exploit or bug? Have a look at the [security.txt file]({{ site.url }}/security.txt "security.txt")
