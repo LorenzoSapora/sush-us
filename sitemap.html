@@ -12,12 +12,9 @@ keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contributi
 <h4>Pages</h4>
 
 {% for page in site.pages %}
-<url>
-	<loc>{{ site.url }}{{ page.url }}</loc>
-	<lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-	<changefreq>{{ page.sitemap.changefreq }}</changefreq>
-	<priority>{{ page.sitemap.priority }}</priority>
-</url>
+<p>
+<a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a> {{ page.sitemap.lastmod | date_to_xmlschema }}
+</p>
 {% endfor %}
 </urlset>
 
