@@ -3,19 +3,23 @@ layout: page
 main-title: HTML sitemap
 sub-title: Yes
 description: "Location of all git repositories"
+permalink: "sitemap.html"
 keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
+{% assign pages_counter = 0 %}{% for page in site.pages %}{% assign pages_counter=pages_counter | plus:1 %}{% endfor %}
+{% assign posts_counter = 0 %}{% for post in site.posts %}{% assign posts_counter=posts_counter | plus:1 %}{% endfor %}
+
+<p><a href="{{ site.url }}">{{ site.url }}</a> HTML Site Map.</p>
+<p><strong>Last updated:</strong> {{ site.time | date: '%Y-%m-%d %H:%I'}}.</p>
+<p><strong>Total pages:</strong> {{ pages_counter | plus: posts_counter }}</p>
 
 <h4>Pages</h4>
 
 {% for page in site.pages %}
-<url>
-	<loc>{{ site.url }}{{ page.url }}</loc>
-	<lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
-	<changefreq>{{ page.sitemap.changefreq }}</changefreq>
-	<priority>{{ page.sitemap.priority }}</priority>
-</url>
+<p>
+<a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a> {{ page.sitemap.lastmod | date_to_xmlschema }}
+</p>
 {% endfor %}
 </urlset>
 
