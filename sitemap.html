@@ -7,7 +7,7 @@ permalink: "sitemap.html"
 keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contribution, graph"
 ---
 
-{% assign pages_counter = 0 %}{% for page in site.pages %}{% assign pages_counter=pages_counter | plus:1 %}{% endfor %}
+{% assign pages_counter = 0 %}{% for page in site.pages %}{% if page.layout != null %}{% assign pages_counter=pages_counter | plus:1 %}{% endif %}{% endfor %}
 {% assign posts_counter = 0 %}{% for post in site.posts %}{% assign posts_counter=posts_counter | plus:1 %}{% endfor %}
 
 <p><a href="{{ site.url }}">{{ site.url }}</a> HTML Site Map.</p>
@@ -17,11 +17,13 @@ keywords: "Development, Sush, git, gitlab, knowbl, bitbucket, github, contributi
 <h4>Pages</h4>
 
 {% for page in site.pages %}
+{% if page.layout != null %}
 <p>
 <a href="{{ site.url }}{{ page.url }}">{{ site.url }}{{ page.url }}</a> {{ page.sitemap.lastmod | date_to_xmlschema }}
 </p>
+{% endif %}
 {% endfor %}
-</urlset>
+
 
 <h4>Posts</h4>
 
