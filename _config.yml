@@ -21,6 +21,7 @@ gitlab_username: "LorenzoSapora"
 
 # Build settings
 
+timezone: UTC
 destination: public
 permalink: /log/:title/
 markdown: kramdown
