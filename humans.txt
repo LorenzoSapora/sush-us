@@ -9,3 +9,7 @@ Site: https://sush.us/
 Twitter: @sudosushi
 Location: UK
 
+/* SITE */
+
+Validation: https://checker.html5.org/?doc=https%3A%2F%2Fsush.us
+Last update: {{ site.time | date: '%Y-%m-%d %H:%I'}}
