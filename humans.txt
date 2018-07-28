@@ -2,3 +2,10 @@
 layout: null
 ---
 
+/* HUMAN */
+
+Title: Senior Developer
+Site: https://sush.us/
+Twitter: @sudosushi
+Location: UK
+
