@@ -3,6 +3,7 @@ layout: log
 main-title: "Chet Baker - Chetty's Lullaby"
 sub-title: "Heartfelt lullaby"
 description: "Chet Baker's Chetty's Lullaby. A song written for his first child"
+keywords: "chet baker, chettys lullaby, translation, italian, english"
 date: 2010-12-10 17:00
 published: true
 categories: 
