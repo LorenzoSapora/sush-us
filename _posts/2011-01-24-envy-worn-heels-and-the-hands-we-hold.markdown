@@ -3,6 +3,7 @@ layout: log
 main-title: "Envy - Worn Heels and the Hands We Hold"
 sub-title: "Heavy yet calming"
 description: "A music video from a band called Envy (Japan)"
+keywords: "envy, metal, youtube"
 date: 2011-01-24 16:00
 published: true
 categories: 
