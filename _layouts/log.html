@@ -12,13 +12,6 @@ single: true
 {% else %}
   {{ content }}
 {% endif %}
-{% unless page.no_header %}
-    {% unless page.meta == false %}
-      <div class="meta">
-        {% include post/date.html %}{{ time }}
-      </div>
-    {% endunless %}
-{% endunless %}
 
     <p class="meta flex">
       {% if page.previous.url %}
