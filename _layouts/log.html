@@ -23,6 +23,6 @@ single: true
     </p>
 
         <p class="meta flex">
-      {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
+      <div class="date">Posted on: {% include post/date.html %}{{ time }}</div>
       {% include post/categories.html %}
     </p>
