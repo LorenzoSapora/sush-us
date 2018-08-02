@@ -3,26 +3,20 @@ layout: default
 single: true
 ---
 
-{% if index %}
-  {{ content | excerpt }}
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-  {% endif %}
-{% else %}
-  {{ content }}
-{% endif %}
+{{ content }}
 
-    <p class="meta flex">
-      {% if page.previous.url %}
-        <a class="previous-page" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&larr; {{page.previous.title}}</a>
-      {% endif %}
-      {% if page.next.url %}
-        <a class="next-page" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &rarr;</a>
-      {% endif %}
-    </p>
+<div class="meta">
+	<div class="date">Posted on: {% include post/date.html %}{{ time }}</div>
+	{% include post/categories.html %}
+</div>
 
-        <p class="meta flex">
-      {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
-      {% include post/categories.html %}
-    </p>
+<p class="meta flex">
+	{% if page.previous.url %}
+		<a class="previous-page" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&larr; {{page.previous.title}}</a>
+	{% endif %}
+	{% if page.next.url %}
+		<a class="next-page" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &rarr;</a>
+	{% endif %}
+</p>
+
+
