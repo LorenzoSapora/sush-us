@@ -2,7 +2,6 @@
 layout: page
 main-title: Log Archive
 sub-title: Dear diary.. No wait, log.
-footer: false
 description: "TBC"
 keywords: "Development, Sush"
 ---
