@@ -3,7 +3,7 @@ layout: page
 main-title: Log Archive
 sub-title: Dear diary.. No wait, log.
 description: "TBC"
-keywords: "Development, Sush"
+keywords: "development,sush,log,blog,archive,lorenzo sapora"
 ---
 
 {% for post in site.posts %}
