@@ -1,12 +1,4 @@
 {%- capture canonical -%}
-	{%- if jekyll.environment == "dev" -%}
-		{{- site.url_dev -}}
-	{%- else -%}
-		{{- site.url -}}
-	{%- endif -%}
-	{%- if site.permalink contains '.html' -%}
-		{{- page.url -}}
-	{%- else -%}
-		{{- page.url | remove:'index.html' -}}
-	{%- endif -%}
+	{%- if jekyll.environment == "dev" -%}{{ site.url_dev }}{% else %}{{ site.url }}{% endif %}
+	{%- if site.permalink contains '.html' -%}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}
 {%- endcapture -%}<link rel="canonical" href="{{ canonical }}">
