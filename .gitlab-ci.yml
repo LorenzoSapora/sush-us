@@ -46,7 +46,7 @@ prod_deploy:
   only:
   - master
   script:
-  - ssh -t sush@dev.sush.us "cd $PROD_DIRECTORY;git pull;JEKYLL_ENV=prod bunble exec jekyll build;"
+  - ssh -t sush@dev.sush.us "cd $PROD_DIRECTORY;git pull;JEKYLL_ENV=prod bundle exec jekyll build;"
 
 #deploy_development_test:
 #  stage: deploy
